@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "author": "红茶",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "@sugarat/theme": "^0.5.27"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2",
+    "typescript": "^5.4.5",
+    "vitepress": "2.0.0-alpha.17"
+  }
+}
