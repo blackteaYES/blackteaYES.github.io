@@ -37,10 +37,95 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '后端', link: '/backEnd/' },
-      { text: '前端', link: '/frontEnd/' },
-      { text: '运维', link: '/devops/' },
-      { text: '摄影', link: '/shootingSkills/' },
+      {
+        text: '设计模式',
+        items: [
+          { text: '设计模式简述', link: '/backEnd/设计模式/设计模式的原则和规范' },
+          { text: '创造型模式', link: '/backEnd/设计模式/创造型模式' },
+          { text: '结构型模式', link: '/backEnd/设计模式/结构型模式' },
+          { text: '行为型模式', link: '/backEnd/设计模式/行为型模式' }
+        ]
+      },
+      {
+        text: '后端技术合集',
+        items: [
+          {
+            text: 'python',
+            items: [
+              { text: 'python', link: '/backEnd/python/python' },
+              { text: 'dir-content-analyzer', link: '/backEnd/python/dir-content-analyzer' }
+            ]
+          },
+          {
+            text: 'redis',
+            items: [
+              { text: 'redis', link: '/backEnd/redis/redis' }
+            ]
+          },
+          {
+            text: 'ElasticStack',
+            items: [
+              { text: 'ElasticStack学习', link: '/backEnd/ElasticStack/ElasticStack' }
+            ]
+          },
+          {
+            text: 'springboot合集',
+            items: [
+              { text: 'SpringBoot整合Minio', link: '/backEnd/java/springboot/SpringBoot整合Minio' },
+              { text: 'SpringBoot整合Sharding-JDBC', link: '/backEnd/java/springboot/SpringBoot整合Sharding-JDBC' },
+              { text: 'SpringBoot整合WebMagic', link: '/backEnd/java/springboot/SpringBoot整合WebMagic' }
+            ]
+          },
+          {
+            text: '数据库',
+            items: [
+              { text: 'mysql 学习', link: '/backEnd/数据库/mysql%20学习' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '前端技术合集',
+        items: [
+          {
+            text: 'webrtc',
+            items: [
+              { text: 'webrtc基础使用', link: '/frontEnd/webrtc/webrtc' }
+            ]
+          },
+          {
+            text: 'vue',
+            items: [
+              { text: 'vue3学习', link: '/frontEnd/vue/vue3' },
+              { text: 'vue3-AI', link: '/frontEnd/vue/vue3-ai' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '运维技术合集',
+        items: [
+          {
+            text: 'arthas',
+            items: [
+              { text: 'arthas', link: '/devops/arthas/arthas' }
+            ]
+          },
+          {
+            text: 'docker',
+            items: [
+              { text: 'Docker基础学习', link: '/devops/docker/Docker学习' },
+              { text: '基于Docker实现mysql主从配置', link: '/devops/docker/基于Docker实现mysql主从配置' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '摄影',
+        items: [
+          { text: '摄影技巧', link: '/shootingSkills/ShootingSkills' }
+        ]
+      },
       { text: '关于我', link: '/about' }
     ],
     socialLinks: [

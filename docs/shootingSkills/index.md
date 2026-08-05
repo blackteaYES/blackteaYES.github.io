@@ -5,4 +5,4 @@ hidden: true
 
 # 摄影技巧
 
-记录摄影学习的构图与拍摄技巧。
+- [摄影技巧](./ShootingSkills)
