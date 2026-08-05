@@ -54,22 +54,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # 使用 最新的 PNPM
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        with:
-          version: latest
-          run_install: false
-
         # 安装依赖
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: npm install
 
         # 构建项目
       - name: Build blog project
         run: |
           echo ${{ github.workspace }}
-          pnpm build
+          npm run build
 
         # 资源拷贝
       - name: Build with Jekyll
