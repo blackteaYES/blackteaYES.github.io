@@ -38,6 +38,17 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
+        text: 'Vibe Coding',
+        items: [
+          {
+            text: '项目',
+            items: [
+              { text: 'dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
+            ]
+          }
+        ]
+      },
+      {
         text: '设计模式',
         items: [
           { text: '设计模式简述', link: '/backEnd/设计模式/设计模式的原则和规范' },
@@ -116,17 +127,6 @@ export default defineConfig({
             items: [
               { text: 'Docker基础学习', link: '/devops/docker/Docker学习' },
               { text: '基于Docker实现mysql主从配置', link: '/devops/docker/基于Docker实现mysql主从配置' }
-            ]
-          }
-        ]
-      },
-      {
-        text: 'Vibe Coding',
-        items: [
-          {
-            text: '项目',
-            items: [
-              { text: 'dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
             ]
           }
         ]
