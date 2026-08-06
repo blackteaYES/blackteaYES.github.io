@@ -1,5 +1,6 @@
 ---
 date: 2025-04-08
+title: mysql 学习
 categories:
   - mysql
 tag:
@@ -7,7 +8,7 @@ tag:
   - mysql
 ---
 
-## mysql 学习
+## ![MySQL](/assets/img/icons/mysql.svg) mysql 学习
 
 #### 简述 MyISAM和InnoDB的区别
 

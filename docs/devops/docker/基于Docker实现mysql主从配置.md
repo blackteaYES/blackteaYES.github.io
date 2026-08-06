@@ -1,5 +1,6 @@
 ---
 date: 2021-03-15
+title: 基于Docker实现mysql主从配置
 categories:
   - mysql主从配置
 tag:
@@ -12,7 +13,7 @@ order: 2
 ---
 
 
-# 基于Docker实现mysql主从配置
+# ![Docker](/assets/img/icons/docker.svg) 基于Docker实现mysql主从配置
 
 ## 版本
 

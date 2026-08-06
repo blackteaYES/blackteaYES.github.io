@@ -36,21 +36,21 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     logo: '/logo.png',
     nav: [
-      { text: '首页', link: '/' },
+      { text: '🏠 首页', link: '/' },
       {
-        text: 'Vibe Coding',
+        text: '⚡ Vibe Coding',
         items: [
           {
             text: '项目',
             items: [
-              { text: 'Jida（即达）', link: '/vibe-coding/jida' },
-              { text: 'dir-content-analyzer（智能本地目录分析与清理助手）', link: '/vibe-coding/dir-content-analyzer' }
+              { text: '📡 Jida（即达）', link: '/vibe-coding/jida' },
+              { text: '📂 dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
             ]
           }
         ]
       },
       {
-        text: '设计模式',
+        text: '🧩 设计模式',
         items: [
           { text: '设计模式简述', link: '/backEnd/设计模式/设计模式的原则和规范' },
           { text: '创造型模式', link: '/backEnd/设计模式/创造型模式' },
@@ -59,7 +59,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '后端技术合集',
+        text: '🛠️ 后端技术合集',
         items: [
           {
             text: 'python',
@@ -96,7 +96,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '前端技术合集',
+        text: '🎨 前端技术合集',
         items: [
           {
             text: 'webrtc',
@@ -114,7 +114,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '运维技术合集',
+        text: '🐳 运维技术合集',
         items: [
           {
             text: 'arthas',
@@ -132,12 +132,12 @@ export default defineConfig({
         ]
       },
       {
-        text: '摄影',
+        text: '📷 摄影',
         items: [
           { text: '摄影技巧', link: '/shootingSkills/ShootingSkills' }
         ]
       },
-      { text: '关于我', link: '/about' }
+      { text: '👤 关于我', link: '/about' }
     ],
     socialLinks: [
       {

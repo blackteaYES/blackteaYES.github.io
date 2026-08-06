@@ -1,5 +1,6 @@
 ---
 date: 2021-07-24
+title: SpringBoot整合Minio
 categories:
   - minio
 tag:
@@ -11,7 +12,7 @@ tag:
 ---
 
 
-# SpringBoot整合Minio
+# ![Minio](/assets/img/icons/minio.svg) SpringBoot整合Minio
 
 ## 搭建属于自己的对象储存服务及短链服务（Minio）
 

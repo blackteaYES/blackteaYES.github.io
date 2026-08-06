@@ -1,5 +1,6 @@
 ---
 date: 2021-09-23
+title: SpringBoot 整合 Sharding-JDBC(mysql-8.0)
 categories:
   - Sharding
 tag:
@@ -12,7 +13,7 @@ tag:
 
 
 
-# SpringBoot 整合 Sharding-JDBC(mysql-8.0)
+# ![Sharding-JDBC](/assets/img/icons/springboot.svg) SpringBoot 整合 Sharding-JDBC(mysql-8.0)
 
 ## 感谢
 

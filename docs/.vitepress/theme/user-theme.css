@@ -7,3 +7,15 @@ html[theme], html[theme].dark {
   --vp-c-brand-3: #096dd9;
   --vp-c-brand-soft: rgba(9, 109, 217, 0.14);
 }
+
+/* 文章标题前的技术图标 */
+.vp-doc h1 img,
+.vp-doc h2 img,
+.vp-doc h3 img {
+  height: 1.1em;
+  width: auto;
+  vertical-align: -0.2em;
+  margin-right: 0.15em;
+  display: inline;
+}
+

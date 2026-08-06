@@ -1,5 +1,6 @@
 ---
 date: 2021-09-30
+title: SpringBoot整合WebMagic
 categories:
   - WebMagic
 tag:
@@ -12,7 +13,7 @@ tag:
 ---
 
 
-# SpringBoot整合WebMagic
+# ![WebMagic](/assets/img/icons/springboot.svg) SpringBoot整合WebMagic
 
 ## 前言
 

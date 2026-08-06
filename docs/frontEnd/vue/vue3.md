@@ -1,5 +1,6 @@
 ---
 date: 2023-07-10
+title: Vue3学习
 categories:
   - vue
 tag:
@@ -11,7 +12,7 @@ footer: Vue3学习
 ---
 
 
-# Vue3学习
+# ![Vue](/assets/img/icons/vue.svg) Vue3学习
 
 ## 二、常用Composition API
 

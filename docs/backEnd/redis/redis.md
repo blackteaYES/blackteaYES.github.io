@@ -1,5 +1,6 @@
 ---
 date: 2023-02-24
+title: Redis
 categories:
   - redis
 tag:
@@ -9,7 +10,7 @@ tag:
 ---
 
 
-#  Redis
+# ![Redis](/assets/img/icons/redis.svg)  Redis
 
 [ Redis数据结构 - 简书 (jianshu.com) ](https://www.jianshu.com/p/3673f055bb3f)
 

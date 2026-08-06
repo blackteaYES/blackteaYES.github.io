@@ -1,5 +1,6 @@
 ---
 date: 2023-02-24
+title: Python基础
 categories:
   - python
 tag:
@@ -9,7 +10,7 @@ tag:
 ---
 
 
-#  Python基础
+# ![Python](/assets/img/icons/python.svg)  Python基础
 
 ##  常用的6种数据类型
 

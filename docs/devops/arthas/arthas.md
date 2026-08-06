@@ -1,5 +1,6 @@
 ---
 date: 2022-02-23
+title: Arthas基础使用
 categories:
   - arthas
 tag:
@@ -7,7 +8,7 @@ tag:
   - bug
 
 ---
-# Arthas基础使用
+# ![Java](/assets/img/icons/java.svg) Arthas基础使用
 
 &emsp;官网地址： [arthas (aliyun.com)](https://arthas.aliyun.com/)
 

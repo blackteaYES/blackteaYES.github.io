@@ -1,5 +1,6 @@
 ---
 date: 2023-04-08
+title: 如何学习拍摄技巧
 categories:
   - 拍摄技巧
 tag:
@@ -8,7 +9,7 @@ tag:
 hidden: true # 不展示在博客首页的内容区
 
 ---
-# 如何学习拍摄技巧
+# ![相机](/assets/img/icons/camera.svg) 如何学习拍摄技巧
 
 ## 1.手机拍摄及构图方法
 

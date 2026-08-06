@@ -1,5 +1,6 @@
 ---
 date: 2026-05-03
+title: Vue3 学习笔记-AI整理版
 categories:
   - vue
 tag:
@@ -9,7 +10,7 @@ tag:
 footer: Vue3学习-AI整理版
 
 ---
-# Vue3 学习笔记-AI整理版
+# ![Vue](/assets/img/icons/vue.svg) Vue3 学习笔记-AI整理版
 
 > 基于 [vue3学习](./vue3.md) 重新整理。
 >

@@ -1,5 +1,6 @@
 ---
 date: 2023-03-29
+title: Elastic Stack
 categories:
   - ElasticStack
 tag:
@@ -7,7 +8,7 @@ tag:
   - ElasticStack
 ---
 
-# Elastic Stack
+# ![Elastic Stack](/assets/img/icons/elasticsearch.svg) Elastic Stack
 
 ## Elastic Stack 简介
 
