@@ -63,8 +63,7 @@ export default defineConfig({
           {
             text: 'python',
             items: [
-              { text: 'python', link: '/backEnd/python/python' },
-              { text: 'dir-content-analyzer', link: '/backEnd/python/dir-content-analyzer' }
+              { text: 'python', link: '/backEnd/python/python' }
             ]
           },
           {
