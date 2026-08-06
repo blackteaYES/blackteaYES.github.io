@@ -12,6 +12,7 @@ tag:
 
 ### **智能本地目录分析与清理助手**
 
+<br/>
 <div class="project-badges" style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
 <a href="https://github.com/blackteaYES/dir-content-analyzer"><img src="https://img.shields.io/github/license/blackteaYES/dir-content-analyzer?style=flat-square" alt="License"></a>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.13+-blue?style=flat-square&logo=python" alt="Python Version"></a>
