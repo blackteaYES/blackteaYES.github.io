@@ -43,7 +43,8 @@ export default defineConfig({
           {
             text: '项目',
             items: [
-              { text: 'dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
+              { text: 'Jida（即达）', link: '/vibe-coding/jida' },
+              { text: 'dir-content-analyzer（智能本地目录分析与清理助手）', link: '/vibe-coding/dir-content-analyzer' }
             ]
           }
         ]
