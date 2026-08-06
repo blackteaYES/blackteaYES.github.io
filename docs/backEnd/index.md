@@ -21,7 +21,6 @@ hidden: true
 ## Python
 
 - [python](./python/python)
-- [dir-content-analyzer](./python/dir-content-analyzer)
 
 ## Redis
 

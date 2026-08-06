@@ -121,6 +121,17 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Vibe Coding',
+        items: [
+          {
+            text: '项目',
+            items: [
+              { text: 'dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
+            ]
+          }
+        ]
+      },
+      {
         text: '摄影',
         items: [
           { text: '摄影技巧', link: '/shootingSkills/ShootingSkills' }
