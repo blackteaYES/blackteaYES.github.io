@@ -12,6 +12,10 @@ tag:
 
 # ![Redis](/assets/img/icons/redis.svg)  Redis
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[Redis-AI整理版](./redis-ai.md)。
+:::
+
 [ Redis数据结构 - 简书 (jianshu.com) ](https://www.jianshu.com/p/3673f055bb3f)
 
 ![redis基本数据结构](/assets/img/redis/redis基本数据结构.png)

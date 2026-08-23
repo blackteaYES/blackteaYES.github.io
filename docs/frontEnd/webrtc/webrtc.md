@@ -18,6 +18,10 @@ copyright: false
 
 # ![WebRTC](/assets/img/icons/webrtc.svg) WebRTC的学习
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[WebRTC的学习-AI整理版](./webrtc-ai.md)。
+:::
+
 ## 1. 相关地址
 
 ### 1.1 文档教学

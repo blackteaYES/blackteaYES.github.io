@@ -10,6 +10,10 @@ tag:
 
 ## ![MySQL](/assets/img/icons/mysql.svg) mysql 学习
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[mysql 学习-AI整理版](./mysql%20学习-ai.md)。
+:::
+
 #### 简述 MyISAM和InnoDB的区别
 
 ###### MyISAM

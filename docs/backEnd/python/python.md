@@ -12,6 +12,10 @@ tag:
 
 # ![Python](/assets/img/icons/python.svg)  Python基础
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[Python基础-AI整理版](./python-ai.md)。
+:::
+
 ##  常用的6种数据类型
 
 | 类型               | 描述                                                         | 说明                                                         |

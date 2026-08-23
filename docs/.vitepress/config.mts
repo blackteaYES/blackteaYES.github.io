@@ -108,8 +108,7 @@ export default defineConfig({
           {
             text: 'vue',
             items: [
-              { text: 'vue3学习', link: '/frontEnd/vue/vue3' },
-              { text: 'vue3-AI', link: '/frontEnd/vue/vue3-ai' }
+              { text: 'vue3学习', link: '/frontEnd/vue/vue3' }
             ]
           }
         ]

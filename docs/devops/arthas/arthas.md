@@ -10,6 +10,10 @@ tag:
 ---
 # ![Java](/assets/img/icons/java.svg) Arthas基础使用
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[Arthas基础使用-AI整理版](./arthas-ai.md)。
+:::
+
 &emsp;官网地址： [arthas (aliyun.com)](https://arthas.aliyun.com/)
 
 &emsp;Gitee：[arthas: Arthas（阿尔萨斯）是阿里巴巴开源的 Java 诊断工具 (gitee.com)](https://gitee.com/arthas/arthas?_from=gitee_search)

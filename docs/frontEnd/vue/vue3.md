@@ -14,6 +14,10 @@ footer: Vue3学习
 
 # ![Vue](/assets/img/icons/vue.svg) Vue3学习
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[Vue3 学习笔记-AI整理版](./vue3-ai.md)。
+:::
+
 ## 二、常用Composition API
 
 ### 1. 初识setup

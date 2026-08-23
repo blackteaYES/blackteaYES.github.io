@@ -10,6 +10,10 @@ tag:
 
 # ![Elastic Stack](/assets/img/icons/elasticsearch.svg) Elastic Stack
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[Elastic Stack-AI整理版](./ElasticStack-ai.md)。
+:::
+
 ## Elastic Stack 简介
 
 ELK是一个免费开源的日志分析架构技术栈总称，[官网](https://www.elastic.co/cn/)。包含三大基础组件，分别是Elasticsearch、Logstash、Kibana。但实际上ELK

@@ -10,6 +10,10 @@ tag:
 ---
 # ![Docker](/assets/img/icons/docker.svg) docker学习
 
+::: tip AI 整理版
+本篇已整理为更适合学习与复习的笔记结构，欢迎前往阅读：[docker学习-AI整理版](./Docker学习-ai.md)。
+:::
+
 ## 感谢
 
 **b站尚谷硅周阳讲师**: https://www.bilibili.com/video/BV1Ls411n7mx?p=34
