@@ -40,103 +40,82 @@ export default defineConfig({
       {
         text: '⚡ Vibe Coding',
         items: [
+          { text: '🖼️ 作品集', link: '/vibe-coding/' },
+          { text: '🧰 Quiver（箭袋）', link: '/vibe-coding/quiver' },
+          { text: '✨ Agnes-工作台', link: '/vibe-coding/agnes-workbench' },
+          { text: '📡 Jida（即达）', link: '/vibe-coding/jida' },
+          { text: '📂 dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
+        ]
+      },
+      {
+        text: '🤖 AI 前沿',
+        items: [
+          { text: '🤖 大模型与 Agent 探索', link: '/ai/llm-agent/' },
+          { text: '🧩 Prompt 与 Skill 工程', link: '/ai/prompt-skill/' },
+          { text: '🧰 AI 工具链与工作流', link: '/ai/workflow/' }
+        ]
+      },
+      {
+        text: '💻 技术体系',
+        items: [
           {
-            text: '项目',
+            text: '🧩 设计模式',
             items: [
-              { text: '🖼️ 作品集', link: '/vibe-coding/' },
-              { text: '🧰 Quiver（箭袋）', link: '/vibe-coding/quiver' },
-              { text: '✨ Agnes-工作台', link: '/vibe-coding/agnes-workbench' },
-              { text: '📡 Jida（即达）', link: '/vibe-coding/jida' },
-              { text: '📂 dir-content-analyzer', link: '/vibe-coding/dir-content-analyzer' }
+              { text: '设计模式简述', link: '/backEnd/设计模式/设计模式的原则和规范' },
+              { text: '创造型模式', link: '/backEnd/设计模式/创造型模式' },
+              { text: '结构型模式', link: '/backEnd/设计模式/结构型模式' },
+              { text: '行为型模式', link: '/backEnd/设计模式/行为型模式' }
+            ]
+          },
+          {
+            text: '🛠️ 后端技术合集',
+            items: [
+              { text: 'Python', link: '/backEnd/python/python' },
+              { text: 'Redis', link: '/backEnd/redis/redis' },
+              { text: 'ElasticStack', link: '/backEnd/ElasticStack/ElasticStack' },
+              { text: 'SpringBoot 合集', link: '/backEnd/java/springboot/' },
+              { text: '数据库与 MySQL', link: '/backEnd/数据库/mysql%20学习' }
+            ]
+          },
+          {
+            text: '🎨 前端技术合集',
+            items: [
+              { text: 'Vue3', link: '/frontEnd/vue/vue3' },
+              { text: 'WebRTC', link: '/frontEnd/webrtc/webrtc' }
+            ]
+          },
+          {
+            text: '🐳 运维技术合集',
+            items: [
+              { text: 'Arthas 线上诊断', link: '/devops/arthas/arthas' },
+              { text: 'Docker 容器化', link: '/devops/docker/' }
             ]
           }
         ]
       },
       {
-        text: '🧩 设计模式',
+        text: '🚀 开源与造物',
         items: [
-          { text: '设计模式简述', link: '/backEnd/设计模式/设计模式的原则和规范' },
-          { text: '创造型模式', link: '/backEnd/设计模式/创造型模式' },
-          { text: '结构型模式', link: '/backEnd/设计模式/结构型模式' },
-          { text: '行为型模式', link: '/backEnd/设计模式/行为型模式' }
+          { text: '📦 开源项目', link: '/projects/open-source/' },
+          { text: '🧪 独立作品与 Demos', link: '/projects/demos/' }
         ]
       },
       {
-        text: '🛠️ 后端技术合集',
+        text: '🧭 视野与拾遗',
         items: [
           {
-            text: 'python',
+            text: '输入与思考',
             items: [
-              { text: 'python', link: '/backEnd/python/python' }
+              { text: '🔖 佳文摘录', link: '/digest/bookmarks/' },
+              { text: '💡 技术杂谈与随笔', link: '/digest/essays/' }
             ]
           },
           {
-            text: 'redis',
+            text: '生活切片',
             items: [
-              { text: 'redis', link: '/backEnd/redis/redis' }
-            ]
-          },
-          {
-            text: 'ElasticStack',
-            items: [
-              { text: 'ElasticStack学习', link: '/backEnd/ElasticStack/ElasticStack' }
-            ]
-          },
-          {
-            text: 'springboot合集',
-            items: [
-              { text: 'SpringBoot整合Minio', link: '/backEnd/java/springboot/SpringBoot整合Minio' },
-              { text: 'SpringBoot整合Sharding-JDBC', link: '/backEnd/java/springboot/SpringBoot整合Sharding-JDBC' },
-              { text: 'SpringBoot整合WebMagic', link: '/backEnd/java/springboot/SpringBoot整合WebMagic' }
-            ]
-          },
-          {
-            text: '数据库',
-            items: [
-              { text: 'mysql 学习', link: '/backEnd/数据库/mysql%20学习' }
+              { text: '📷 摄影技巧', link: '/shootingSkills/ShootingSkills' }
             ]
           }
-        ]
-      },
-      {
-        text: '🎨 前端技术合集',
-        items: [
-          {
-            text: 'webrtc',
-            items: [
-              { text: 'webrtc基础使用', link: '/frontEnd/webrtc/webrtc' }
-            ]
-          },
-          {
-            text: 'vue',
-            items: [
-              { text: 'vue3学习', link: '/frontEnd/vue/vue3' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '🐳 运维技术合集',
-        items: [
-          {
-            text: 'arthas',
-            items: [
-              { text: 'arthas', link: '/devops/arthas/arthas' }
-            ]
-          },
-          {
-            text: 'docker',
-            items: [
-              { text: 'Docker基础学习', link: '/devops/docker/Docker学习' },
-              { text: '基于Docker实现mysql主从配置', link: '/devops/docker/基于Docker实现mysql主从配置' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '📷 摄影',
-        items: [
-          { text: '摄影技巧', link: '/shootingSkills/ShootingSkills' }
         ]
       },
       { text: '👤 关于我', link: '/about' }
