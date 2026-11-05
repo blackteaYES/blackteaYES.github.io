@@ -43,6 +43,7 @@ export default defineConfig({
           {
             text: '项目',
             items: [
+              { text: '🖼️ 作品集', link: '/vibe-coding/' },
               { text: '🧰 Quiver（箭袋）', link: '/vibe-coding/quiver' },
               { text: '✨ Agnes-工作台', link: '/vibe-coding/agnes-workbench' },
               { text: '📡 Jida（即达）', link: '/vibe-coding/jida' },

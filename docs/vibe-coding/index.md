@@ -1,12 +1,11 @@
 ---
-title: Vibe Coding
+layout: page
+title: Vibe Coding 作品集
+description: 红茶开发的 Vibe Coding 项目与工具作品集
 hidden: true
+recommend: 0
+sidebar: false
+outline: [2, 3]
 ---
 
-# Vibe Coding 项目合集
-
-## 项目列表
-
-- [Agnes-工作台](./agnes-workbench) —— 原生 JavaScript 多模态 AI 创作工作台
-- [Jida（即达）](./jida) —— 局域网文件传输工具 · 发出，即达
-- [dir-content-analyzer](./dir-content-analyzer) —— 智能本地目录分析与清理助手
+<UserWorksPage />
