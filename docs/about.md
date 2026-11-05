@@ -58,3 +58,15 @@ hidden: true
 
 - [SpringBoot整合合集(源码)](https://gitee.com/zjydzyjs/spring-boot-use-case-collection)
 - [SpringBoot 中使用设计模式（源码）](https://gitee.com/zjydzyjs/design-patterns-in-spring-boot)
+
+## 栏目总览
+
+想按栏目一次看全，从这里进：
+
+- [后端技术合集](/backEnd/)
+- [前端技术合集](/frontEnd/)
+- [运维技术合集](/devops/)
+- [摄影](/shootingSkills/)
+- [AI 前沿](/ai/)
+- [开源与造物](/projects/)
+- [视野与拾遗](/digest/)
