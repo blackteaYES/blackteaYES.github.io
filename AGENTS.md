@@ -5,8 +5,17 @@
 ## 目录结构
 
 - `docs/` — 全部博客内容（Markdown 文章），按栏目分目录：
-  - `backEnd/`（Java/Python/Redis/ElasticStack/数据库/设计模式/面试题）、`frontEnd/`（Vue/WebRTC）、`devops/`（Docker/Arthas）、`vibe-coding/`（AI 编程项目介绍）、`shootingSkills/`（摄影）
+  - `backEnd/`（Java/Python/Redis/ElasticStack/数据库/设计模式）、`frontEnd/`（Vue/WebRTC）、`devops/`（Docker/Arthas）、`vibe-coding/`（AI 编程项目介绍）、`ai/`（AI 前沿探索）、`projects/`（开源收藏与 Demos）、`digest/`（好文摘录与随笔）、`shootingSkills/`（摄影）
   - 每个栏目目录有 `index.md` 作为栏目首页
+- 顶栏导航名 ≠ 目录名，按导航名找不到目录时查这张表：
+
+  | 导航 | 目录 |
+  | --- | --- |
+  | ⚡ Vibe Coding | `vibe-coding/` |
+  | 🤖 AI 前沿 | `ai/` |
+  | 💻 技术体系 | `backEnd/`、`frontEnd/`、`devops/` |
+  | 🚀 开源与造物 | `projects/` |
+  | 🧭 视野与拾遗 | `digest/`、`shootingSkills/` |
 - `docs/.vitepress/config.mts` — VitePress 主配置：`base: '/'`（部署到 name.github.io 根路径，勿改为子路径）、导航菜单、`ignoreDeadLinks: true`
 - `docs/.vitepress/blog-theme.ts` — 主题配置（作者、页脚、giscus 评论）；修改站点级展示配置改这里，不是 config.mts
 - `docs/.vitepress/theme/` — 主题覆盖入口 `index.ts` + 自定义样式 `user-theme.css`
@@ -29,7 +38,7 @@ npm run serve   # 本地预览构建产物
 
 ## 文章约定
 
-- frontmatter 使用 `date`（YYYY-MM-DD）、`categories`（栏目名）、`tag`（标签数组），示例见 `docs/vibe-coding/jida.md`
+- frontmatter 使用 `date`（YYYY-MM-DD）、`categories`（专题名，与目录/专题页一致）、`tag`（标签数组，**第一位是导航大类**：后端/前端/运维/设计模式/AI/摄影，后面跟细分标签），示例见 `docs/vibe-coding/jida.md`
 - 部分目录/文件名是中文且含空格（如 `docs/backEnd/数据库/mysql 学习.md`）；在 config.mts 导航里引用时需 URL 编码（空格写 `%20`）
 - 新增文章后通常要在 `config.mts` 的 `nav` 中登记入口（vibe-coding 等栏目）
 
