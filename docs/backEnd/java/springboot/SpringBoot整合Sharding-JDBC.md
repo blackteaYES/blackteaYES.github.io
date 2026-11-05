@@ -1,14 +1,14 @@
 ---
 date: 2021-09-23
 title: SpringBoot 整合 Sharding-JDBC(mysql-8.0)
+sticky: 2
 categories:
-  - Sharding
+  - springboot
 tag:
-  - 开发
+  - 后端
   - java
   - springboot整合
   - 分库分表
-
 ---
 
 

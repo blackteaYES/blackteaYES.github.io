@@ -4,10 +4,9 @@ title: mysql 学习-AI整理版
 categories:
   - mysql
 tag:
-  - 开发
+  - 后端
   - mysql
 footer: mysql 学习-AI整理版
-
 ---
 # ![MySQL](/assets/img/icons/mysql.svg) mysql 学习-AI整理版
 

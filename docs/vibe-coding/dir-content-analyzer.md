@@ -2,12 +2,11 @@
 date: 2026-04-30
 title: 📂 dir-content-analyzer（智能本地目录分析与清理助手）
 categories:
-  - python
+  - vibe-coding
 tag:
-  - 开发
+  - AI
   - python
   - 工具
-
 ---
 # 📂 dir-content-analyzer
 

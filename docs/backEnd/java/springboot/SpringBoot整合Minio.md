@@ -2,13 +2,12 @@
 date: 2021-07-24
 title: SpringBoot整合Minio
 categories:
-  - minio
+  - springboot
 tag:
-  - 开发
+  - 后端
   - java
   - springboot整合
   - minio
-
 ---
 
 

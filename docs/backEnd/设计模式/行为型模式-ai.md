@@ -4,12 +4,10 @@ title: 行为型模式-AI整理版
 categories:
   - 设计模式
 tag:
-  - 开发
+  - 设计模式
   - java
   - springboot
-  - 设计模式
 footer: 行为型模式-AI整理版
-
 ---
 # ![Java](/assets/img/icons/java.svg) 行为型模式-AI整理版
 

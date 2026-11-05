@@ -2,14 +2,13 @@
 date: 2021-09-30
 title: SpringBoot整合WebMagic
 categories:
-  - WebMagic
+  - springboot
 tag:
-  - 开发
+  - 后端
   - java
   - springboot整合
   - WebMagic
   - 爬虫
-
 ---
 
 

@@ -1,16 +1,16 @@
 ---
 date: 2023-03-17
 title: WebRTC的学习
+sticky: 3
 categories:
   - webrtc
 tag:
+  - 前端
   - 音视频
   - springboot
   - js
 footer: 该文章集成了WebRTC和SpringBoot,以websocket作为信令服务。
 copyright: false
-
-
 ---
 
 

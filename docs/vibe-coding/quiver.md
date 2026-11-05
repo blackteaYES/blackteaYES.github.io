@@ -1,6 +1,7 @@
 ---
 date: 2026-11-04
 title: 🧰 Quiver（箭袋）
+sticky: 1
 categories:
   - vibe-coding
 tag:

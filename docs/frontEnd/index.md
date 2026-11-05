@@ -8,7 +8,6 @@ hidden: true
 ## Vue
 
 - [vue3 学习](./vue/vue3)
-- [vue3-AI](./vue/vue3-ai)
 
 ## WebRTC
 

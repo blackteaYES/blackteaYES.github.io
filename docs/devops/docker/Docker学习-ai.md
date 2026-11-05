@@ -5,9 +5,8 @@ categories:
   - docker
 tag:
   - 运维
-  - docker
+  - Docker
 footer: docker学习-AI整理版
-
 ---
 # ![Docker](/assets/img/icons/docker.svg) docker学习-AI整理版
 

@@ -4,7 +4,7 @@ title: mysql 学习
 categories:
   - mysql
 tag:
-  - 开发
+  - 后端
   - mysql
 ---
 

@@ -4,10 +4,9 @@ title: Python基础-AI整理版
 categories:
   - python
 tag:
-  - 开发
+  - 后端
   - python
 footer: Python基础-AI整理版
-
 ---
 # ![Python](/assets/img/icons/python.svg) Python基础-AI整理版
 

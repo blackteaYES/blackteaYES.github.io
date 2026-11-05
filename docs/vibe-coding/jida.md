@@ -3,7 +3,7 @@ date: 2026-08-06
 categories:
   - vibe-coding
 tag:
-  - 开发
+  - AI
   - node
   - 局域网
 ---

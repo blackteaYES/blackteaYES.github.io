@@ -1,12 +1,12 @@
 ---
 date: 2022-02-23
 title: Arthas基础使用
+sticky: 4
 categories:
   - arthas
 tag:
   - 运维
   - bug
-
 ---
 # ![Java](/assets/img/icons/java.svg) Arthas基础使用
 

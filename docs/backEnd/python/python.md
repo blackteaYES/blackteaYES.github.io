@@ -1,12 +1,12 @@
 ---
 date: 2023-02-24
 title: Python基础
+sticky: 6
 categories:
   - python
 tag:
-  - 开发
+  - 后端
   - python
-
 ---
 
 

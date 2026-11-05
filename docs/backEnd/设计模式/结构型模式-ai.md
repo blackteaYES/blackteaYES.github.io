@@ -4,12 +4,10 @@ title: 结构型模式-AI整理版
 categories:
   - 设计模式
 tag:
-  - 开发
+  - 设计模式
   - java
   - springboot
-  - 设计模式
 footer: 结构型模式-AI整理版
-
 ---
 # ![Java](/assets/img/icons/java.svg) 结构型模式-AI整理版
 

@@ -4,10 +4,9 @@ title: Redis-AI整理版
 categories:
   - redis
 tag:
-  - 开发
+  - 后端
   - 缓存
 footer: Redis学习-AI整理版
-
 ---
 # ![Redis](/assets/img/icons/redis.svg) Redis-AI整理版
 

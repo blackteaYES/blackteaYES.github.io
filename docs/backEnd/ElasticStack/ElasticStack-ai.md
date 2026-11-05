@@ -4,10 +4,9 @@ title: Elastic Stack-AI整理版
 categories:
   - ElasticStack
 tag:
-  - 开发
+  - 后端
   - ElasticStack
 footer: Elastic Stack学习-AI整理版
-
 ---
 # ![Elastic Stack](/assets/img/icons/elasticsearch.svg) Elastic Stack-AI整理版
 

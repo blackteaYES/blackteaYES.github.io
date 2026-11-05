@@ -4,9 +4,8 @@ title: Redis
 categories:
   - redis
 tag:
-  - 开发
+  - 后端
   - 缓存
-
 ---
 
 
