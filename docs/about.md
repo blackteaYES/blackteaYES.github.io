@@ -18,8 +18,41 @@ hidden: true
 
 ### ⚡ Vibe Coding
 
-- [Jida（即达）](https://github.com/blackteaYES/Jida) —— 局域网文件传输工具 · 发出，即达
-- [dir-content-analyzer](https://github.com/blackteaYES/dir-content-analyzer) —— 智能本地目录分析与清理助手（[Gitee](https://gitee.com/zjydzyjs/dir-content-analyzer)）
+一些自己做的 AI 工具与效率项目，按时间倒序排列。
+
+> 🖼️ 想看项目截图？前往 [Vibe Coding 作品集](/vibe-coding/)。
+
+::: card
+- title: Quiver（箭袋）
+  icon: 🧰
+  desc: 本地优先的 AI Skill 管理器 · 一处整理，多端分发
+  link: /vibe-coding/quiver
+  github: https://github.com/blackteaYES/quiver
+  tags: [AI, Skill, Electron, React]
+----
+- title: Agnes-工作台
+  icon: ✨
+  desc: 原生 JavaScript 多模态 AI 创作工作台
+  link: /vibe-coding/agnes-workbench
+  github: https://github.com/blackteaYES/agnes-workbench
+  tags: [AI, JavaScript, 多模态, 创作工具]
+----
+- title: Jida（即达）
+  icon: 📡
+  desc: 局域网文件传输工具 · 发出，即达
+  link: /vibe-coding/jida
+  github: https://github.com/blackteaYES/Jida
+  tags: [局域网, Node, WebRTC, 文件传输]
+----
+- title: dir-content-analyzer
+  icon: 📂
+  desc: 智能本地目录分析与清理助手
+  link: /vibe-coding/dir-content-analyzer
+  github: https://github.com/blackteaYES/dir-content-analyzer
+  tags: [Python, LLM, 目录分析, Streamlit]
+:::
+
+> 📂 `dir-content-analyzer` 另有 [Gitee 镜像](https://gitee.com/zjydzyjs/dir-content-analyzer)。
 
 ### ![Java](/assets/img/icons/java.svg) Java 后端
 
