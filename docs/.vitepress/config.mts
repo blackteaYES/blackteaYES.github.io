@@ -52,7 +52,19 @@ export default defineConfig({
         items: [
           { text: '🤖 大模型与 Agent 探索', link: '/ai/llm-agent/' },
           { text: '🧩 Prompt 与 Skill 工程', link: '/ai/prompt-skill/' },
-          { text: '🧰 AI 工具链与工作流', link: '/ai/workflow/' }
+          { text: '🧰 AI 工具链与工作流', link: '/ai/workflow/' },
+          {
+            text: '⭐ 精选 Skill 收藏',
+            items: [
+              { text: '全部分类', link: '/ai/prompt-skill/good-skills/' },
+              { text: '🧑‍💻 编码开发', link: '/ai/prompt-skill/good-skills/coding/' },
+              { text: '✍️ 文档写作', link: '/ai/prompt-skill/good-skills/writing/' },
+              { text: '📊 数据处理', link: '/ai/prompt-skill/good-skills/data/' },
+              { text: '🔬 研究检索', link: '/ai/prompt-skill/good-skills/research/' },
+              { text: '🗂️ 办公协作', link: '/ai/prompt-skill/good-skills/office/' },
+              { text: '🎨 图像创作', link: '/ai/prompt-skill/good-skills/image/' }
+            ]
+          }
         ]
       },
       {
