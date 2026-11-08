@@ -1,6 +1,6 @@
 ---
 title: 开源与造物
-description: 收藏的开源项目与自己做过的小作品
+description: 收藏的开源项目、实用工具与网站，以及自己做过的小作品
 hidden: true
 sidebar: false
 ---
@@ -14,6 +14,12 @@ sidebar: false
 看到值得留档的仓库就记下来，写清它解决什么问题、我自己怎么用上的。
 
 - [📦 开源项目](/projects/open-source/)
+
+## 工具与网站
+
+在线工具、实用网站与非开源软件，记录用途、推荐理由和使用限制。
+
+- [🌐 工具与网站](/projects/tools/)
 
 ## 自己的实验品
 

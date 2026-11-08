@@ -11,12 +11,7 @@ sidebar: false
 
 和 [Vibe Coding 作品集](/vibe-coding/) 的区别是：那边是还在维护的项目，这边是用完就扔的实验品。
 
-拟收录：
+## 实验记录
 
-- 单页 Demo 与技术验证原型
-- 脚本、小工具、一次性自动化
-- 失败记录的复盘
-
-::: warning 栏目筹备中
-作品条目会陆续补充到这里。
-:::
+- [🔍 给博客装上离线全文搜索：Pagefind 小实验](./pagefind-search)
+- [🚀 把博客交给 GitHub Actions：自动部署实验](./github-actions-deploy)
