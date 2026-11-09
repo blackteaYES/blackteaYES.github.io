@@ -117,6 +117,13 @@ const blogTheme = getThemeConfig({
   // 主题色修改（旧站 vuepress-theme-hope 主题色 #096dd9，可自行调整）
   themeColor: 'el-blue',
 
+  // 首页标签卡：按文章数降序只展示前 12 个并带计数，其余收进展开按钮
+  homeTags: {
+    sort: 'desc',
+    limit: 12,
+    showCount: true
+  },
+
   // 首页右侧作者信息（优先取 frontmatter blog.author / logo）
   // home: {
   //   author: '红茶',
