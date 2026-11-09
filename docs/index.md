@@ -8,5 +8,6 @@ blog:
     - 一个 Java 后端开发者
     - 记录学习，分享技术
   inspiringTimeout: 3000
-  pageSize: 6
+  # 设置首页列表每页展示数量
+  pageSize: 8
 ---
