@@ -39,6 +39,14 @@ sidebar: false
 - **好在哪**：Vite 驱动，开发服务器秒启动；Markdown 里能直接嵌 Vue 组件。
 - **怎么用**：本博客就是 VitePress + @sugarat/theme 搭的，部署流程见 [自动部署实验](/projects/demos/github-actions-deploy)。
 
+### @sugarat/theme
+
+**仓库**：[ATQQ/sugar-blog](https://github.com/ATQQ/sugar-blog) · VitePress 博客主题 · [官网](https://theme.sugarat.top/) · MIT
+
+- **解决什么**：VitePress 原生是文档站，离博客还差首页文章流、分类标签、评论、搜索、RSS 这最后一公里。
+- **好在哪**：简约风、开箱即用，中文文档齐全；本博客就是活例子（在用 0.5.27），配置与踩坑都沉淀在这个仓库里。
+- **怎么用**：存量 VitePress 项目按官网「存量 VitePress 项目中引入」换主题入口；新项目走快速上手。部署搭配 [自动部署实验](/projects/demos/github-actions-deploy)。
+
 ::: tip 收录标准
 只收真正用过或认真评估过的，每条写清问题、优点、用法，不只留一行简介。
 :::
