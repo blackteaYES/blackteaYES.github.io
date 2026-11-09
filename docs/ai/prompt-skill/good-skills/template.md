@@ -82,6 +82,10 @@ outline: [2, 3]
 原文、仓库、作者、发布时间。
 ```
 
+## 来源分组
+
+总览页的「📦 按来源浏览」只给多产仓库分组（当前为 anthropics/skills、vercel-labs/agent-skills），组内按分类列链接，指向现有详情页。新增 Skill 时：来源已在分组里，就在该组对应分类行补一条链接并更新标题计数；独立来源不入组。同一独立来源累计 3 条以上时，再考虑升成一组。
+
 ## 图片
 
 - 缩略图统一为 540×720 竖版 JPG，放在 `docs/public/assets/img/skills/<skill-id>/preview.jpg`；
