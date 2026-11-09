@@ -122,4 +122,84 @@ outline: [2, 3]
   </div>
 </div>
 
-**挑选建议**：先看你要「素材库 / 审美门禁 / 多方向探索 / 设计系统落地 / 交互图解 / 接口与 MCP / 浏览器验证 / 技能开发」中的哪一种。UI UX Pro Max 适合快速起步，UI Craft 适合接 CI，oil-ui 适合选方向，Impeccable 适合有设计系统的项目，Anatomy 适合机械与流程讲解；写 Claude 集成读 claude-api，做 MCP Server 用 mcp-builder，验证前端行为用 webapp-testing；要独特视觉方向选 frontend-design，复杂交互工件选 web-artifacts-builder；把流程固化成 Skill 用 skill-creator。
+### [react-best-practices（性能规则）](/ai/prompt-skill/good-skills/coding/react-best-practices)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/react-best-practices/preview.jpg" alt="性能规则封面：70 条规则、8 类优先级" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">Vercel 工程团队 70 条 React/Next.js 性能规则，按影响分 8 级优先级。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">React · Next.js · 性能<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/react-best-practices">详情</a></p>
+  </div>
+</div>
+
+### [composition-patterns（组合模式）](/ai/prompt-skill/good-skills/coding/composition-patterns)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/composition-patterns/preview.jpg" alt="组合模式封面：复合组件、状态上提、显式变体" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">10 条 React 组合规则：复合组件、状态上提、显式变体，治布尔 prop 泛滥。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">React · 组件架构 · 组合模式<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/composition-patterns">详情</a></p>
+  </div>
+</div>
+
+### [react-view-transitions（视图过渡）](/ai/prompt-skill/good-skills/coding/react-view-transitions)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/react-view-transitions/preview.jpg" alt="视图过渡封面：共享元素、路由方向动画、优雅降级" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">用 React 19.3 原生 ViewTransition 做共享元素与路由动画，不引第三方库。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">React 19.3 · 动画 · View Transition<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/react-view-transitions">详情</a></p>
+  </div>
+</div>
+
+### [react-native-skills（移动端实践）](/ai/prompt-skill/good-skills/coding/react-native-skills)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/react-native-skills/preview.jpg" alt="移动端实践封面：FlashList、Reanimated、原生导航" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">RN/Expo 最佳实践：FlashList 列表、Reanimated 动画、原生导航与 monorepo。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">React Native · Expo · 移动端<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/react-native-skills">详情</a></p>
+  </div>
+</div>
+
+### [web-design-guidelines（界面审查）](/ai/prompt-skill/good-skills/coding/web-design-guidelines)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/web-design-guidelines/preview.jpg" alt="界面审查封面：现拉最新规则、file:line 精简输出" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">每次审查现拉最新 Web 界面规则，按 file:line 输出无障碍与 UX 问题。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">UI 审查 · 无障碍 · 规则<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/web-design-guidelines">详情</a></p>
+  </div>
+</div>
+
+### [deploy-to-vercel（一键部署）](/ai/prompt-skill/good-skills/coding/deploy-to-vercel)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/deploy-to-vercel/preview.jpg" alt="一键部署封面：默认预览、推送先确认、临时部署兜底" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">一句「deploy my app」走安全决策树：默认预览、推送先问、无登录可临时部署。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">部署 · Vercel CLI · Agent 工作流<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/deploy-to-vercel">详情</a></p>
+  </div>
+</div>
+
+### [vercel-cli-with-tokens（令牌部署）](/ai/prompt-skill/good-skills/coding/vercel-cli-with-tokens)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/vercel-cli-with-tokens/preview.jpg" alt="令牌部署封面：token 走环境变量、部署与 env 管理" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">用环境变量 token 操作 Vercel CLI：部署、env、域名，不把密钥写进命令行。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">Vercel CLI · Token · CI<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/vercel-cli-with-tokens">详情</a></p>
+  </div>
+</div>
+
+### [vercel-optimize（成本审计）](/ai/prompt-skill/good-skills/coding/vercel-optimize)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/vercel-optimize/preview.jpg" alt="成本审计封面：指标先行、确定性门控、版本化引用" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">观测先行的 Vercel 成本审计：先收指标再查代码，建议带版本化引用。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">Vercel · 成本 · 可观测性<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize">GitHub</a> · <a href="/ai/prompt-skill/good-skills/coding/vercel-optimize">详情</a></p>
+  </div>
+</div>
+
+**挑选建议**：先看你要「素材库 / 审美门禁 / 多方向探索 / 设计系统落地 / 交互图解 / 接口与 MCP / 浏览器验证 / 技能开发」中的哪一种。UI UX Pro Max 适合快速起步，UI Craft 适合接 CI，oil-ui 适合选方向，Impeccable 适合有设计系统的项目，Anatomy 适合机械与流程讲解；写 Claude 集成读 claude-api，做 MCP Server 用 mcp-builder，验证前端行为用 webapp-testing；要独特视觉方向选 frontend-design，复杂交互工件选 web-artifacts-builder；把流程固化成 Skill 用 skill-creator。Vercel 系列按阶段分：写代码时查 react-best-practices（性能）与 composition-patterns（架构），做动画用 react-view-transitions，移动端用 react-native-skills；UI 体检用 web-design-guidelines（CI 门禁仍选 ui-craft）；部署用 deploy-to-vercel（交互登录）或 vercel-cli-with-tokens（CI/token）；部署后的账单与慢路由审计用 vercel-optimize。
