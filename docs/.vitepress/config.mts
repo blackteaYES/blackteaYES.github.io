@@ -56,7 +56,7 @@ export default defineConfig({
           {
             text: '⭐ 精选 Skill 收藏',
             items: [
-              { text: '全部分类', link: '/ai/prompt-skill/good-skills/' },
+              { text: '📚 全部分类', link: '/ai/prompt-skill/good-skills/' },
               { text: '🧑‍💻 编码开发', link: '/ai/prompt-skill/good-skills/coding/' },
               { text: '✍️ 文档写作', link: '/ai/prompt-skill/good-skills/writing/' },
               { text: '📊 数据处理', link: '/ai/prompt-skill/good-skills/data/' },
@@ -109,6 +109,7 @@ export default defineConfig({
         text: '🚀 开源与造物',
         items: [
           { text: '📦 开源项目', link: '/projects/open-source/' },
+          { text: '🌐 工具与网站', link: '/projects/tools/' },
           { text: '🧪 独立作品与 Demos', link: '/projects/demos/' }
         ]
       },
@@ -116,14 +117,14 @@ export default defineConfig({
         text: '🧭 视野与拾遗',
         items: [
           {
-            text: '输入与思考',
+            text: '📥 输入与思考',
             items: [
               { text: '🔖 佳文摘录', link: '/digest/bookmarks/' },
               { text: '💡 技术杂谈与随笔', link: '/digest/essays/' }
             ]
           },
           {
-            text: '生活切片',
+            text: '🌿 生活切片',
             items: [
               { text: '📷 摄影技巧', link: '/shootingSkills/ShootingSkills' }
             ]
