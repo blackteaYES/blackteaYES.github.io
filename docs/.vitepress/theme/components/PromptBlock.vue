@@ -42,7 +42,7 @@ const rows = computed<Row[]>(() => {
     for (const seg of line.split('。')) {
       const s = seg.trim()
       if (!s) continue
-      const m = s.match(/^([^：]{1,8})：(.*)$/)
+      const m = s.match(/^([\u4e00-\u9fa5A-Za-z][^：]{0,7})：(.*)$/)
       const label = m && m[2].trim() ? m[1].trim() : null
       const value = m && label ? m[2].trim() : s
       out.push({ label, value, lead: first && !label, avoid: label === '避免' })
