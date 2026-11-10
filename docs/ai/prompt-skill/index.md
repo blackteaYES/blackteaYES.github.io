@@ -12,6 +12,7 @@ sidebar: false
 ## 已上线
 
 - [⭐ 精选 Skill 收藏](/ai/prompt-skill/good-skills/) — 按使用场景分成 6 个分类目录，每个 Skill 独立详情页
+- [🎯 精选提示词](/ai/prompt-skill/good-prompts/) — 自研实测的 GPT Image 2 生图提示词，5 类 25 条，每条附风格变体与可拖动效果对比
 
 ## 方法论文章
 

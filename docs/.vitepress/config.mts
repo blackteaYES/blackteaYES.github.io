@@ -64,6 +64,17 @@ export default defineConfig({
               { text: '🗂️ 办公协作', link: '/ai/prompt-skill/good-skills/office/' },
               { text: '🎨 图像创作', link: '/ai/prompt-skill/good-skills/image/' }
             ]
+          },
+          {
+            text: '🎯 精选提示词',
+            items: [
+              { text: '📚 全部分类', link: '/ai/prompt-skill/good-prompts/' },
+              { text: '📷 人像写真', link: '/ai/prompt-skill/good-prompts/portrait/' },
+              { text: '📰 编辑海报', link: '/ai/prompt-skill/good-prompts/poster/' },
+              { text: '🎨 插画手绘', link: '/ai/prompt-skill/good-prompts/illustration/' },
+              { text: '🎬 角色与动态', link: '/ai/prompt-skill/good-prompts/character/' },
+              { text: '🏠 设计与请柬', link: '/ai/prompt-skill/good-prompts/design/' }
+            ]
           }
         ]
       },
