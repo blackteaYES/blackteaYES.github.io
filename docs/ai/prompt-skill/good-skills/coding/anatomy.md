@@ -12,6 +12,12 @@ outline: [2, 3]
 
 开源 Agent Skill，专门做真实机械和复杂系统的交互式等距插图，输出可以直接在浏览器打开、可点击、可暂停的代码动画。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/anatomy/preview.jpg" alt="自行车构造交互图解：部件标注与分组" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 成品不只是动画：支持点击部件高亮、拆解、暂停/慢放、调整曲轴角度、单缸观察。

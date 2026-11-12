@@ -12,6 +12,12 @@ outline: [2, 3]
 
 把一句话或一张照片做成安静的纸刊海报：仿旧纸张、大面积留白、只保留一个视觉焦点，默认 3:5 竖版。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/gc-minimal-zine-poster/preview.jpg" alt="VALLEY / AFTERNOON 极简纸刊海报" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 不只是套模板：配了 prompt-compiler 和 quality-gate 质检流程，作者把审美当工程在打磨。

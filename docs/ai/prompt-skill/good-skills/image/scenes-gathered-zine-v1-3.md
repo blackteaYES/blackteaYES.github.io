@@ -12,6 +12,12 @@ outline: [2, 3]
 
 保留照片真实质感，用手撕纸的纤维边把照片和纸刊式插画连接起来；下方再加一块从照片提取的抽象色块。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/scenes-gathered-zine-v1-3/preview.jpg" alt="Open Water：照片、撕纸与纸刊插画拼贴" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 照片不被覆盖，而是和纸刊插画拼在一起；撕纸边、纤维、色块都参与构图。

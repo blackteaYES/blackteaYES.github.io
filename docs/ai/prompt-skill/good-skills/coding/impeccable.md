@@ -12,6 +12,12 @@ outline: [2, 3]
 
 给编码 Agent 补上设计词汇和约束：可以从零搭界面，也可以优化已有页面，并尽量遵循项目自己的设计系统。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/impeccable/preview.jpg" alt="Impeccable 官网：给 Agent 的设计词汇表" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 很多 AI 写界面只会堆组件，缺设计体系表达；Impeccable 提供一套设计词汇和判断标准。

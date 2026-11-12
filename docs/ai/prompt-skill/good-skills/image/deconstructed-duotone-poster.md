@@ -12,6 +12,12 @@ outline: [2, 3]
 
 针对“AI 随便套个滤镜”的做法：先把照片拆成几个语义锚点，再用六宫格或九宫格重新演绎成双色平面海报。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/deconstructed-duotone-poster/preview.jpg" alt="四宫格深绿森林双色解构海报" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 核心是“解构”，不是滤镜：先拆语义锚点，再重组成平面印刷感版面。

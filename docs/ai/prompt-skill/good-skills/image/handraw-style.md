@@ -12,6 +12,12 @@ outline: [2, 3]
 
 把模糊的“温暖一点、像绘本”变成可查找、可复用的风格编号。选一个编号加主题，Skill 输出中英双语提示词；默认不直接生图。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/handraw-style/preview.jpg" alt="水彩手绘风格的伦敦街景与猫" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 把画风从形容词变成编号：文章实测 290 种（早期版本 261 种），分 A–G 七组，适合连续做系列配图。

@@ -12,6 +12,12 @@ outline: [2, 3]
 
 用细密的小点表现明暗，像老式激光打印机把图像印在带纤维纹理的米白纸上。默认输出 3:4 竖版。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/pixel-style-poster-skill/preview.jpg" alt="MARKET BLOOM 点阵印刷感像素海报" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 不是普通像素化滤镜：点阵印刷感更接近孔版/激光打印，质感集中在纸纹和网点上。

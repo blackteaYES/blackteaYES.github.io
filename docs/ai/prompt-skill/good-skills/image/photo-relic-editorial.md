@@ -12,6 +12,12 @@ outline: [2, 3]
 
 “纸上留影”：上半部分保留照片，下半部分生成一块纸感版画，从照片提取色彩和结构，用淡墨勾形。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/photo-relic-editorial/preview.jpg" alt="four towers：照片与纸感版画的上下拼合" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 比 deconstructed 更不抽象，大部分元素一眼能认出来，照片不像被“吃掉”。

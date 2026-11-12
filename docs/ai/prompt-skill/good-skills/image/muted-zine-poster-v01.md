@@ -12,6 +12,12 @@ outline: [2, 3]
 
 基于 gc-minimal-zine-poster 改出来的“安静版”：颜色接近单色，纸张上 70% 以上是留白，主体只占一小块。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/muted-zine-poster-v01/preview.jpg" alt="RAIN, AGAIN 低饱和雨窗纸刊海报" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 把极简推到极致，适合雨天、旧书、海边、回忆这类安静情绪。

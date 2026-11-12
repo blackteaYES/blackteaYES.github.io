@@ -12,6 +12,12 @@ outline: [2, 3]
 
 专为旅行照片做的抽象化 Skill：把画面里的数量、位置、节奏和间隙映射成抽象符号，而不是简单加滤镜。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/travel-photo-abstraction/preview.jpg" alt="宝塔照片的极简抽象符号化效果" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 适合元素丰富、关系清楚的旅行照：城市、街道、风景、建筑群都能被整理成一套抽象语言。

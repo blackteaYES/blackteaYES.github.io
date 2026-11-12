@@ -12,6 +12,12 @@ outline: [2, 3]
 
 核心理念是“克制”：整张图只有照片和一块象牙白抽象面板，没有纸纹、颗粒、渐变，把空间关系抽成极简几何标记。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/photo-abstract-editorial/preview.jpg" alt="Vertical Weather：照片与几何抽象面板" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 不是版画，也不是拼贴：下半部分是一块干净的象牙白面板，只留几笔几何和一行英文标题。

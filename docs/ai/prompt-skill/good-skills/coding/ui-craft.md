@@ -12,6 +12,12 @@ outline: [2, 3]
 
 把“AI 看不出页面丑”这件事变成可量化的问题：用 52 项确定性规则检查界面，给设计打分，并可以在 CI 里卡住不合格的构建。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/ui-craft/preview.jpg" alt="Taste Skill 品牌标识" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - AI 生成页面时，Agent 自己能写代码，却很难判断间距、层级、对比度和一致性。

@@ -12,6 +12,12 @@ outline: [2, 3]
 
 不直接给一套静态模板，而是让 Agent 先生成多个不同方向的 UI 方案，横向对比选型，再基于真实截图一轮轮迭代细节。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/oil-ui/preview.jpg" alt="oil-ui 插画：把多个 UI 方向钉在墙上对比" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 适合设计方向不明确的时候：先看多个方案，再决定走哪条路。

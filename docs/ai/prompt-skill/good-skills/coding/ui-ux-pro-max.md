@@ -12,6 +12,12 @@ outline: [2, 3]
 
 给 AI 编程工具装一套可检索的 UI/UX 知识库：57 套 UI 风格、95 组配色、56 套字体搭配，覆盖 8 套技术栈、24 种图表类型和 29 个落地页模板。
 
+<div style="max-width:300px;margin:16px 0;">
+  <img src="/assets/img/skills/ui-ux-pro-max/preview.jpg" alt="UI UX Pro Max 官网首页：设计知识库与素材统计" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
+</div>
+
+> 封面取自原项目仓库或页面，版权归原作者。
+
 ## 为什么收它
 
 - 接入后 AI 不再凭空猜样式，而是从风格库、配色库和字体库里按条件检索，再推荐整套方案。
