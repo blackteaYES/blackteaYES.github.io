@@ -53,7 +53,7 @@ outline: [2, 3]
 
 ## 📦 按来源浏览
 
-分类回答「你要干什么」，来源回答「同一个地方还有什么」。只给多产仓库分组，独立来源回各分类页找；条目全部链到现有详情页，不另存副本。
+分类回答「你要干什么」，来源回答「同一个地方还有什么」。同一来源累计 2 条以上单独成组，单条来源统一收进「独立来源」；条目全部链到现有详情页，不另存副本。
 
 ### anthropics/skills（19）
 
@@ -72,6 +72,27 @@ Vercel Labs 的 Agent Skill 仓库，集中在 React/Next.js 与 Vercel 部署�
 
 - 编码开发：[react-best-practices](/ai/prompt-skill/good-skills/coding/react-best-practices) · [composition-patterns](/ai/prompt-skill/good-skills/coding/composition-patterns) · [react-view-transitions](/ai/prompt-skill/good-skills/coding/react-view-transitions) · [react-native-skills](/ai/prompt-skill/good-skills/coding/react-native-skills) · [web-design-guidelines](/ai/prompt-skill/good-skills/coding/web-design-guidelines) · [deploy-to-vercel](/ai/prompt-skill/good-skills/coding/deploy-to-vercel) · [vercel-cli-with-tokens](/ai/prompt-skill/good-skills/coding/vercel-cli-with-tokens) · [vercel-optimize](/ai/prompt-skill/good-skills/coding/vercel-optimize)
 - 文档写作：[writing-guidelines](/ai/prompt-skill/good-skills/writing/writing-guidelines)
+
+### alchaincyf（2）
+
+花叔的 Agent Skill 仓库，偏艺术动画与商业发布片。
+
+- 视频与动效：[huashu-art-motion](/ai/prompt-skill/good-skills/video/huashu-art-motion) · [huashu-motion](/ai/prompt-skill/good-skills/video/huashu-motion)
+
+### Vincentwei1021（2）
+
+MG 动效样板与产品宣传片两条线。
+
+- 视频与动效：[mg-styles-15](/ai/prompt-skill/good-skills/video/mg-styles-15) · [video-shotcraft](/ai/prompt-skill/good-skills/video/video-shotcraft)
+
+### 独立来源（23）
+
+单条来源与个人作者的合集；同一来源累计 2 条后会单独成组。
+
+- 编码开发：[ui-ux-pro-max](/ai/prompt-skill/good-skills/coding/ui-ux-pro-max) · [ui-craft](/ai/prompt-skill/good-skills/coding/ui-craft) · [oil-ui](/ai/prompt-skill/good-skills/coding/oil-ui) · [impeccable](/ai/prompt-skill/good-skills/coding/impeccable) · [anatomy](/ai/prompt-skill/good-skills/coding/anatomy)
+- 研究检索：[nuwa-skill](/ai/prompt-skill/good-skills/research/nuwa-skill)
+- 图像创作：[deconstructed-duotone-poster](/ai/prompt-skill/good-skills/image/deconstructed-duotone-poster) · [gc-minimal-zine-poster](/ai/prompt-skill/good-skills/image/gc-minimal-zine-poster) · [handraw-style](/ai/prompt-skill/good-skills/image/handraw-style) · [muted-zine-poster-v01](/ai/prompt-skill/good-skills/image/muted-zine-poster-v01) · [photo-abstract-editorial](/ai/prompt-skill/good-skills/image/photo-abstract-editorial) · [photo-relic-editorial](/ai/prompt-skill/good-skills/image/photo-relic-editorial) · [photo-revival](/ai/prompt-skill/good-skills/image/photo-revival) · [photo-story](/ai/prompt-skill/good-skills/image/photo-story) · [pixel-style-poster-skill](/ai/prompt-skill/good-skills/image/pixel-style-poster-skill) · [scenes-gathered-zine-v1-3](/ai/prompt-skill/good-skills/image/scenes-gathered-zine-v1-3) · [travel-photo-abstraction](/ai/prompt-skill/good-skills/image/travel-photo-abstraction)
+- 视频与动效：[lemo-opuscar](/ai/prompt-skill/good-skills/video/lemo-opuscar) · [anidoodle](/ai/prompt-skill/good-skills/video/anidoodle) · [animate](/ai/prompt-skill/good-skills/video/animate) · [sweety-handdraw-video](/ai/prompt-skill/good-skills/video/sweety-handdraw-video) · [bang-motion](/ai/prompt-skill/good-skills/video/bang-motion) · [claude-animation-base](/ai/prompt-skill/good-skills/video/claude-animation-base)
 
 ## 收录标准
 
