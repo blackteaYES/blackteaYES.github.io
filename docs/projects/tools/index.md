@@ -7,7 +7,7 @@ sidebar: false
 
 # 🌐 工具与网站
 
-收藏在线工具、实用网站与终端软件，记录它们解决什么问题、适合什么场景，以及有哪些使用限制。当前 6 类 24 条。
+收藏在线工具、实用网站与桌面软件，记录它们解决什么问题、适合什么场景，以及有哪些使用限制。当前 6 类 26 条。
 
 快速跳转：[🤖 AI 编程](#ai) · [🧠 AI 客户端与模型](#ai-client) · [🧰 桌面与网络](#desktop) · [🎨 图像与前端参考](#image-fe) · [🚀 建站与部署](#deploy) · [💬 社区与文档](#community)
 
@@ -15,11 +15,11 @@ sidebar: false
 
 - 浏览器里直接可用的在线工具与服务
 - 值得收藏的实用网站
-- 提升开发、设计、写作与日常效率的终端软件（不论是否开源）
+- 提升开发、设计、写作与日常效率的桌面软件与终端工具（不论是否开源）
 
 ## 与其他栏目的区别
 
-- 别人的开源代码库、框架与仓库，放在 [开源项目收藏](/projects/open-source/)；终端软件与在线服务收在这里。
+- 别人的开源代码库、框架与仓库，放在 [开源项目收藏](/projects/open-source/)；桌面软件、终端工具与在线服务收在这里。
 - AI 工具的配置、对比和完整使用流程，放在 [AI 工具链与工作流](/ai/workflow/)；这里只留目录级结论，链去细文。
 - 自己持续维护的项目，放在 [Vibe Coding 作品集](/vibe-coding/)。
 
@@ -101,6 +101,12 @@ Quiver 的代码协作就是在 Qoder 里借它完成的，长任务拆得动、
 
 对 NTFS 文件名建索引，输入即出结果，比资源管理器搜索快几个数量级。只搜文件名不搜内容，内容检索要另配工具。免费。
 
+### <img src="/icons/tools/sigma-file-manager.png" alt="" decoding="async" /> Sigma File Manager
+
+**仓库**：[aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) · 现代文件管理器 · Windows / Linux
+
+把资源管理器最常用的几件事重新做了一遍：自建索引的全局搜索（官方称 1TB 约 2 秒，支持拼写容错）、标签页与分屏、扩展市场、局域网共享与扫码传输、空格快速预览；Electron + Vue + TypeScript 实现，界面和主题可自定义。Windows 可直接 `winget install sfm`。限制是 macOS 需自行编译，许可证以仓库为准，扩展生态还在早期，别指望覆盖所有资源管理器场景。
+
 ### <img src="/icons/tools/utools.png" alt="" decoding="async" /> uTools
 
 **官网**：[u.tools](https://u.tools) · 启动器式效率工具 · 跨平台
@@ -112,6 +118,12 @@ Quiver 的代码协作就是在 Qoder 里借它完成的，长任务拆得动、
 **仓库**：[clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) · 代理客户端 · Windows / macOS / Linux
 
 日常代理出口，混合端口默认 7897，脚本里写死的就是它。TUN 模式一开是全机器接管，我只开系统代理，个别不吃系统代理的进程单独注入环境变量（见 [Antigravity 配代理](/ai/workflow/antigravity-proxy)）。开源终端软件，按终端软件收在这里。
+
+### <img src="/icons/tools/who-are-you.png" alt="" decoding="async" /> Who Are You（你是谁）
+
+**仓库**：[yt1988/who-are-you](https://github.com/yt1988/who-are-you) · 浏览器指纹与隐私自检 · [在线体验](https://who.1ms.dog) · MIT
+
+打开网页、不用授权，就能看到网站眼中的你：IP 与时区是否矛盾、DNS 有没有泄漏、WebRTC 是否绕过代理暴露真实出口，以及 Canvas/WebGL、字体、电量等 115+ 项指纹拼出的画像。适合排查代理伪装、出海账号环境和日常隐私自查；检测在本地浏览器完成，不存隐私数据。限制是结果受浏览器与网络环境影响，修复建议偏 Clash/Mihomo 一类工具，换设备或换网络后要重新测。
 
 ## 🎨 图像与前端参考 {#image-fe}
 
