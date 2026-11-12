@@ -102,6 +102,13 @@ html[theme], html[theme].dark {
 .dark .pb-label { color: #40a9ff; background: rgba(9, 109, 217, .18); border-color: rgba(9, 109, 217, .45); }
 .dark .pb-avoid .pb-label { color: #ff7875; background: rgba(212, 56, 13, .18); border-color: rgba(212, 56, 13, .45); }
 
+/* ===== 精选 Skill ===== */
+
+/* 详情页封面外层限宽 300px、图片 100% 宽，主题的 300px 限高会把 3:4 封面压成方形 */
+.VPDoc .vp-doc img[src^="/assets/img/skills/"][src$="/preview.jpg"] {
+  max-height: none;
+}
+
 /* 分类页条目：原图 + 变体双缩略图 */
 .prompt-entry { display: flex; gap: clamp(14px, 3vw, 28px); align-items: flex-start; margin: 10px 0 26px; }
 .pe-thumbs { display: flex; gap: 8px; flex: none; }
