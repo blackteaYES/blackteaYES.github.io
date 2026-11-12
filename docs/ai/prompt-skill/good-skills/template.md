@@ -97,6 +97,7 @@ outline: [2, 3]
 
 - 缩略图统一为 540×720 竖版 JPG，放在 `docs/public/assets/img/skills/<skill-id>/preview.jpg`；
 - 分类页以 132px 宽展示，`height:auto` 自适应；
+- 详情页封面统一用 `<div style="max-width:300px;margin:16px 0;">` 包裹，图片 `width:100%;height:auto`；多张示例图同样固定 300px 宽，避免尺寸忽大忽小；
 - 详情页可另放 1–2 张原图；
 - 原仓库没有可用截图时，可制作同尺寸的品牌封面，并在详情页注明「封面为本收藏自制示意图」；
 - 注明图片来自原仓库或原文，版权归原作者。

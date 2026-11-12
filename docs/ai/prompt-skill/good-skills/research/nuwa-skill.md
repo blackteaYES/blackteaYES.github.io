@@ -12,7 +12,7 @@ outline: [2, 3]
 
 「你想蒸馏的下一个员工，何必是同事」——输入乔布斯、马斯克、芒格、费曼，女娲自动完成调研、提炼、验证，产出一个能对话的视角 Skill。
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0;align-items:start;">
+<div style="max-width:300px;margin:16px 0;">
   <img src="/assets/img/skills/nuwa-skill/preview.jpg" alt="女娲 Skill 宣传图：把多种信息蒸馏成思维方式" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
 </div>
 

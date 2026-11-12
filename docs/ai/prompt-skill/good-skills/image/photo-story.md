@@ -12,7 +12,7 @@ outline: [2, 3]
 
 同一张照片，换一种「时间与情绪」的材质：东方故事、青绿山水、水彩、木刻版画、毛线编织、金箔压纸……保留原图的主体位置与构图，只改变呈现方式。
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0;align-items:start;">
+<div style="max-width:300px;margin:16px 0;">
   <img src="/assets/img/skills/photo-story/preview.jpg" alt="上海照片转成青绿山水风格" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--vp-c-divider);">
 </div>
 
