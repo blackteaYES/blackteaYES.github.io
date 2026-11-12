@@ -82,6 +82,10 @@ outline: [2, 3]
 原文、仓库、作者、发布时间。
 ```
 
+## 总览卡片
+
+分类与项目卡片统一用本地 `::: link-card` 容器，每张卡以 `- title:` 开头，字段包括 `icon`、`desc`、`link`，以及可选的 `github`、`created`、`updated`、`tags`。`link` 默认站内跳转；需要新窗口时加 `external: true`。`github` 始终新开窗口，`created` / `updated` 写成 `YYYY-MM-DD` 静态展示，`tags` 写成 `[标签1, 标签2]`。
+
 ## 来源分组
 
 总览页的「📦 按来源浏览」只给多产仓库分组（当前为 anthropics/skills、vercel-labs/agent-skills），组内按分类列链接，指向现有详情页。新增 Skill 时：来源已在分组里，就在该组对应分类行补一条链接并更新标题计数；独立来源不入组。同一独立来源累计 3 条以上时，再考虑升成一组。

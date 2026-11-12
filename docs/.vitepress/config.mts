@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { blogTheme } from './blog-theme'
+import { linkCardPlugin } from './markdown/link-card'
 
 // GitHub Pages 部署到仓库子路径时设置，如 /repo-name/
 // 如果项目名已经为 name.github.io 域名，则保持根路径即可
@@ -12,6 +13,12 @@ export default defineConfig({
   lang: 'zh-cn',
   // 忽略正文中的本机/示例死链（如 localhost、外部项目 LICENSE），源自旧博客原文
   ignoreDeadLinks: true,
+  markdown: {
+    config(md) {
+      // 注册 ::: link-card 容器，字段与用法见 markdown/link-card.ts
+      md.use(linkCardPlugin)
+    }
+  },
   // 主题插件客户端代码含有 .vue 直接引用，需交由 Vite 处理而非外部化
   vite: {
     ssr: {

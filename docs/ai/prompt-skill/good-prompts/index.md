@@ -12,7 +12,7 @@ outline: [2, 3]
 
 ## 分类
 
-::: card
+::: link-card
 - title: 人像写真（8）
   icon: 📷
   desc: 抓拍、棚拍与电影感人像，含视角、布光与胶片质感

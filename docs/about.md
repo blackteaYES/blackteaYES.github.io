@@ -22,12 +22,14 @@ hidden: true
 
 > 🖼️ 想看项目截图？前往 [Vibe Coding 作品集](/vibe-coding/)。
 
-::: card
+::: link-card
 - title: Quiver（箭袋）
   icon: 🧰
   desc: 本地优先的 AI Skill 管理器 · 一处整理，多端分发
   link: /vibe-coding/quiver
   github: https://github.com/blackteaYES/quiver
+  created: 2026-11-03
+  updated: 2026-11-04
   tags: [AI, Skill, Electron, React]
 ----
 - title: Agnes-工作台
@@ -35,6 +37,8 @@ hidden: true
   desc: 原生 JavaScript 多模态 AI 创作工作台
   link: /vibe-coding/agnes-workbench
   github: https://github.com/blackteaYES/agnes-workbench
+  created: 2026-08-08
+  updated: 2026-09-09
   tags: [AI, JavaScript, 多模态, 创作工具]
 ----
 - title: Jida（即达）
@@ -42,6 +46,8 @@ hidden: true
   desc: 局域网文件传输工具 · 发出，即达
   link: /vibe-coding/jida
   github: https://github.com/blackteaYES/Jida
+  created: 2026-08-02
+  updated: 2026-08-02
   tags: [局域网, Node, WebRTC, 文件传输]
 ----
 - title: dir-content-analyzer
@@ -49,6 +55,8 @@ hidden: true
   desc: 智能本地目录分析与清理助手
   link: /vibe-coding/dir-content-analyzer
   github: https://github.com/blackteaYES/dir-content-analyzer
+  created: 2026-04-30
+  updated: 2026-04-30
   tags: [Python, LLM, 目录分析, Streamlit]
 :::
 

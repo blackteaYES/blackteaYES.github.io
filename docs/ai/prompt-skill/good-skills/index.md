@@ -14,7 +14,7 @@ outline: [2, 3]
 
 ## 分类
 
-::: card
+::: link-card
 - title: 编码开发
   icon: 🧑‍💻
   desc: Agent 工作流、API 与 MCP 构建、前端设计与测试

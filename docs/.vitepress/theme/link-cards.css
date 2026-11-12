@@ -1,0 +1,113 @@
+/**
+ * link-cards.css — `::: link-card` 卡片样式（全局引入）
+ *
+ * 对应 DOM（由 docs/.vitepress/markdown/link-card.ts 生成）：
+ * .link-card-list
+ *   └─ .link-card
+ *        ├─ .link-card-icon
+ *        └─ .link-card-body
+ *             ├─ .link-card-title   <a>：站内默认同页跳转
+ *             ├─ .link-card-desc
+ *             ├─ .link-card-meta    GitHub 链接 + 创建/更新时间
+ *             └─ .link-card-tags > .link-card-tag
+ *
+ * 颜色全部使用 VitePress CSS 变量，自动适配明暗主题。
+ */
+
+.link-card-list {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.link-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.link-card-icon {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vp-c-bg-alt);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.link-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.link-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+
+.link-card-title:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.link-card-title:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.link-card-desc {
+  margin-top: 6px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.link-card-meta {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--vp-c-text-3);
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.link-card-meta:hover {
+  color: var(--vp-c-text-1);
+}
+
+.link-card-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.link-card-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .link-card-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+
+  .link-card-title {
+    font-size: 16px;
+  }
+}
