@@ -1,6 +1,6 @@
 ---
 title: 🎨 图像创作
-description: 照片重绘、配图与封面生成
+description: 照片重绘、配图、表情包与封面生成
 hidden: true
 sidebar: false
 outline: [2, 3]
@@ -8,7 +8,7 @@ outline: [2, 3]
 
 # 🎨 图像创作
 
-照片转绘、生成艺术、海报与配色主题一类的视觉类 Skill。
+照片转绘、生成艺术、海报、表情包与配色主题一类的视觉类 Skill。
 
 > 返回：[精选 Skill 收藏](/ai/prompt-skill/good-skills/)
 
@@ -162,6 +162,16 @@ outline: [2, 3]
   </div>
 </div>
 
+### [weixin-sticker（微信表情包）](/ai/prompt-skill/good-skills/image/weixin-sticker)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/weixin-sticker/preview.jpg" alt="16 张日常场景微信表情包示例：你好、收到、无语、下班等" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">按微信表情开放平台规格，批量产出 8–24 张 240×240 表情、横幅、封面与 ZIP。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">微信表情 · 表情包 · 批量产出<br><a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/HVq1G9RicGT3YgMQ7D8eng">原文</a> · <a target="_blank" rel="noopener noreferrer" href="https://github.com/zxd-666/weixin-sticker">GitHub</a> · <a href="/ai/prompt-skill/good-skills/image/weixin-sticker">详情</a></p>
+  </div>
+</div>
+
 ### [brand-guidelines（品牌规范）](/ai/prompt-skill/good-skills/image/brand-guidelines)
 
 <div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
@@ -172,4 +182,4 @@ outline: [2, 3]
   </div>
 </div>
 
-**挑选建议**：先判断要不要保留照片原图。保留真实质感 → photo-revival / photo-relic / photo-abstract / travel / scenes / photo-story，必须给原图；只想快速出氛围海报 → gc-minimal / pixel / muted / deconstructed，可只给一句话。想要「可交互、可复现」的生成艺术 → algorithmic-art；单张静态海报 → canvas-design；统一配色字体 → theme-factory；GIF → slack-gif-creator；做 Anthropic 风格物料 → brand-guidelines。比例先裁好（3:4 / 3:5 / 4:3），原图主体和关系越清楚，出图越稳。
+**挑选建议**：先判断要不要保留照片原图。保留真实质感 → photo-revival / photo-relic / photo-abstract / travel / scenes / photo-story，必须给原图；只想快速出氛围海报 → gc-minimal / pixel / muted / deconstructed，可只给一句话。想要「可交互、可复现」的生成艺术 → algorithmic-art；单张静态海报 → canvas-design；统一配色字体 → theme-factory；GIF → slack-gif-creator；做微信静态表情包 → weixin-sticker；做 Anthropic 风格物料 → brand-guidelines。比例先裁好（3:4 / 3:5 / 4:3），原图主体和关系越清楚，出图越稳。
