@@ -1,13 +1,32 @@
 <script setup lang="ts">
+/**
+ * PromptBlock.vue — 提示词全文展示块（全局组件）
+ *
+ * 入参：
+ * - text: string  必填，完整提示词原文；展示与复制均基于该字段。
+ *
+ * 用法（已在 theme/index.ts 全局注册，md 中直接写，无需 import）：
+ * <PromptBlock text="完整原提示词" />
+ * <PromptBlock text="将画面转换为水墨风格。【保留核心】...【色彩】...【避免】..." />
+ *
+ * 排版规则：
+ * - 含【标签】时按节拆分，【标签】作为左侧小标题，节内文字保持整段；
+ * - 无【标签】时按换行与句号拆行，`槽位：内容` 会拆成小标题 + 内容；
+ * - 首行无标签的内容加粗（.pb-lead）；「避免」「禁止」标签使用警示色（.pb-avoid）。
+ * 样式位于 user-theme.css 的 .pb 段。
+ */
 import { computed, ref } from 'vue'
 
+/** 完整提示词文本 */
 const props = defineProps<{ text: string }>()
 
 const copied = ref(false)
 let timer: ReturnType<typeof setTimeout> | undefined
 
+/** 一行展示数据：label 为左侧槽位名，为 null 时只显示正文 */
 interface Row { label: string | null; value: string; lead: boolean; avoid: boolean }
 
+/** 把提示词拆成逐行结构，拆分规则见文件头注释 */
 const rows = computed<Row[]>(() => {
   const raw = props.text.replace(/\r/g, '').trim()
   const out: Row[] = []
@@ -52,6 +71,7 @@ const rows = computed<Row[]>(() => {
   return out
 })
 
+/** 复制全文：优先 Clipboard API，失败时回退到临时 textarea */
 async function copy() {
   const raw = props.text
   try {

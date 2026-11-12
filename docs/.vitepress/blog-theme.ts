@@ -1,3 +1,9 @@
+/**
+ * blog-theme.ts — @sugarat/theme 站点展示配置
+ *
+ * 包含：文章默认作者、Vibe Coding 作品集、友链、主题色、首页标签卡、页脚、giscus 评论。
+ * 修改站点级展示项改这里；路由、构建与 Markdown 相关配置在 config.mts。
+ */
 import { getThemeConfig } from '@sugarat/theme/node'
 
 const blogTheme = getThemeConfig({
