@@ -44,6 +44,11 @@ outline: [2, 3]
   icon: 🎨
   desc: 照片转绘、生成艺术、海报与主题
   link: /ai/prompt-skill/good-skills/image/
+----
+- title: 视频与动效
+  icon: 🎬
+  desc: 产品发布、艺术动画、手绘口播与程序化动效
+  link: /ai/prompt-skill/good-skills/video/
 :::
 
 ## 📦 按来源浏览

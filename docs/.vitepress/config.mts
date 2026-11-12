@@ -69,7 +69,8 @@ export default defineConfig({
               { text: '📊 数据处理', link: '/ai/prompt-skill/good-skills/data/' },
               { text: '🔬 研究检索', link: '/ai/prompt-skill/good-skills/research/' },
               { text: '🗂️ 办公协作', link: '/ai/prompt-skill/good-skills/office/' },
-              { text: '🎨 图像创作', link: '/ai/prompt-skill/good-skills/image/' }
+              { text: '🎨 图像创作', link: '/ai/prompt-skill/good-skills/image/' },
+              { text: '🎬 视频与动效', link: '/ai/prompt-skill/good-skills/video/' }
             ]
           },
           {

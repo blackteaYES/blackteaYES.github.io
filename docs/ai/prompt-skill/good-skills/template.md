@@ -23,8 +23,11 @@ docs/ai/prompt-skill/good-skills/
 ├── data/index.md            # 数据处理目录
 ├── research/index.md        # 研究检索目录
 ├── office/index.md          # 办公协作目录
-└── image/
-    ├── index.md             # 图像创作目录
+├── image/
+│   ├── index.md             # 图像创作目录
+│   └── <skill-id>.md        # Skill 详情
+└── video/
+    ├── index.md             # 视频与动效目录
     └── <skill-id>.md        # Skill 详情
 ```
 

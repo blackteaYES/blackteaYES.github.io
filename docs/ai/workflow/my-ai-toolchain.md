@@ -19,7 +19,7 @@ tag:
 
 ## 能力层：Skill
 
-重复使用的流程收成 Skill：博客的 [精选 Skill 收藏](/ai/prompt-skill/good-skills/) 现在收了 36 条，分编码、写作、数据、研究、办公、图像六类。收录标准很简单：用过三次以上，才值得做成 Skill。
+重复使用的流程收成 Skill：博客的 [精选 Skill 收藏](/ai/prompt-skill/good-skills/) 现在收了 55 条，分编码、写作、数据、研究、办公、图像、视频与动效七类。收录标准很简单：用过三次以上，才值得做成 Skill。
 
 ## 分发层：Quiver
 
