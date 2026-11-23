@@ -127,6 +127,11 @@ outline: [2, 3]
 - 想给照片换材质（青绿山水、水彩、木刻），选 photo-story；想极简留白，选 photo-revival；想做抽象符号系列，选 travel-photo-abstraction。
 - 适合一个景点一天的时间线、展览式输出、旅行手账。不适合要求每幕严格还原同一地标形制的纪实项目——这类需求应该用真实原图，而不是生成原图。
 
+## 相关
+
+- 站内摘录：[《我用了一条提示词，把相册里吃灰的旅行照片做成了一本书》](/digest/bookmarks/#《我用了一条提示词-把相册里吃灰的旅行照片做成了一本书》)——原始版式提示词与当时的摘录笔记
+- 实测项目：岳阳楼六幕，见仓库 [examples/yueyanglou](https://github.com/blackteaYES/travel-photo-book/tree/main/examples/yueyanglou)
+
 ## 出处
 
 - 仓库：[blackteaYES/travel-photo-book](https://github.com/blackteaYES/travel-photo-book)
