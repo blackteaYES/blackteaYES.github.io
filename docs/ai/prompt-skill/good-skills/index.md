@@ -85,14 +85,14 @@ MG 动效样板与产品宣传片两条线。
 
 - 视频与动效：[mg-styles-15](/ai/prompt-skill/good-skills/video/mg-styles-15) · [video-shotcraft](/ai/prompt-skill/good-skills/video/video-shotcraft)
 
-### 独立来源（27）
+### 独立来源（28）
 
 单条来源与个人作者的合集；同一来源累计 2 条后会单独成组。
 
 - 编码开发：[ui-ux-pro-max](/ai/prompt-skill/good-skills/coding/ui-ux-pro-max) · [ui-craft](/ai/prompt-skill/good-skills/coding/ui-craft) · [oil-ui](/ai/prompt-skill/good-skills/coding/oil-ui) · [impeccable](/ai/prompt-skill/good-skills/coding/impeccable) · [anatomy](/ai/prompt-skill/good-skills/coding/anatomy)
 - 数据处理：[minicharts](/ai/prompt-skill/good-skills/data/minicharts)
 - 研究检索：[nuwa-skill](/ai/prompt-skill/good-skills/research/nuwa-skill)
-- 图像创作：[deconstructed-duotone-poster](/ai/prompt-skill/good-skills/image/deconstructed-duotone-poster) · [gc-minimal-zine-poster](/ai/prompt-skill/good-skills/image/gc-minimal-zine-poster) · [handraw-style](/ai/prompt-skill/good-skills/image/handraw-style) · [muted-zine-poster-v01](/ai/prompt-skill/good-skills/image/muted-zine-poster-v01) · [photo-abstract-editorial](/ai/prompt-skill/good-skills/image/photo-abstract-editorial) · [photo-relic-editorial](/ai/prompt-skill/good-skills/image/photo-relic-editorial) · [photo-revival](/ai/prompt-skill/good-skills/image/photo-revival) · [photo-story](/ai/prompt-skill/good-skills/image/photo-story) · [pixel-style-poster-skill](/ai/prompt-skill/good-skills/image/pixel-style-poster-skill) · [scenes-gathered-zine-v1-3](/ai/prompt-skill/good-skills/image/scenes-gathered-zine-v1-3) · [travel-photo-abstraction](/ai/prompt-skill/good-skills/image/travel-photo-abstraction) · [weixin-sticker](/ai/prompt-skill/good-skills/image/weixin-sticker)
+- 图像创作：[deconstructed-duotone-poster](/ai/prompt-skill/good-skills/image/deconstructed-duotone-poster) · [gc-minimal-zine-poster](/ai/prompt-skill/good-skills/image/gc-minimal-zine-poster) · [handraw-style](/ai/prompt-skill/good-skills/image/handraw-style) · [muted-zine-poster-v01](/ai/prompt-skill/good-skills/image/muted-zine-poster-v01) · [photo-abstract-editorial](/ai/prompt-skill/good-skills/image/photo-abstract-editorial) · [photo-relic-editorial](/ai/prompt-skill/good-skills/image/photo-relic-editorial) · [photo-revival](/ai/prompt-skill/good-skills/image/photo-revival) · [photo-story](/ai/prompt-skill/good-skills/image/photo-story) · [pixel-style-poster-skill](/ai/prompt-skill/good-skills/image/pixel-style-poster-skill) · [scenes-gathered-zine-v1-3](/ai/prompt-skill/good-skills/image/scenes-gathered-zine-v1-3) · [travel-photo-abstraction](/ai/prompt-skill/good-skills/image/travel-photo-abstraction) · [travel-photo-book](/ai/prompt-skill/good-skills/image/travel-photo-book) · [weixin-sticker](/ai/prompt-skill/good-skills/image/weixin-sticker)
 - 视频与动效：[lemo-opuscar](/ai/prompt-skill/good-skills/video/lemo-opuscar) · [anidoodle](/ai/prompt-skill/good-skills/video/anidoodle) · [animate](/ai/prompt-skill/good-skills/video/animate) · [sweety-handdraw-video](/ai/prompt-skill/good-skills/video/sweety-handdraw-video) · [bang-motion](/ai/prompt-skill/good-skills/video/bang-motion) · [claude-animation-base](/ai/prompt-skill/good-skills/video/claude-animation-base) · [article2media](/ai/prompt-skill/good-skills/video/article2media) · [pixel2motion](/ai/prompt-skill/good-skills/video/pixel2motion)
 
 ## 收录标准
