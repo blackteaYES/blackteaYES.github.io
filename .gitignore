@@ -1,3 +1,7 @@
 node_modules
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+# 本地 Agent 配置与设计笔记，不入库
+.agents/
+.trae/
