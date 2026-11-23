@@ -29,6 +29,16 @@ sidebar: false
 - **好在哪**：比 Spring Security 轻量得多，踢人下线、角色层级这类 API 贴合国内业务场景。
 - **怎么用**：中小项目直接拿来做登录和鉴权；复杂 OAuth2 场景先读透文档再上。
 
+## Python 生态
+
+### Scrapling
+
+**仓库**：[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · 自适应爬虫框架 · Python
+
+- **解决什么**：页面改版导致选择器失效、反爬越来越严这两件爬虫老毛病。
+- **好在哪**：自适应元素追踪、浏览器 TLS 指纹伪装、Scrapy 风格的断点续爬 / 限速 / robots 支持，还带 MCP 服务与 Agent Skill，`page.markdown()` 一行转成 LLM 友好格式。
+- **怎么用**：`pip` 装完即用，也有 Docker 镜像；先用一个小页面验证自适应定位和 Markdown 输出，正式爬取前确认目标站条款并打开 `robots_txt_obey`。隐身模式不是百分百，重要任务留重试和兜底。
+
 ## 建站
 
 ### VitePress
