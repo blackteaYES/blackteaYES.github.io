@@ -7,7 +7,7 @@ sidebar: false
 
 # 🌐 工具与网站
 
-收藏在线工具、实用网站与桌面软件，记录它们解决什么问题、适合什么场景，以及有哪些使用限制。当前 6 类 26 条。
+收藏在线工具、实用网站与桌面软件，记录它们解决什么问题、适合什么场景，以及有哪些使用限制。当前 6 类 27 条。
 
 快速跳转：[🤖 AI 编程](#ai) · [🧠 AI 客户端与模型](#ai-client) · [🧰 桌面与网络](#desktop) · [🎨 图像与前端参考](#image-fe) · [🚀 建站与部署](#deploy) · [💬 社区与文档](#community)
 
@@ -184,6 +184,12 @@ Discourse 搭的中文社区，软件、网络、VPS 折腾帖密集，和 linux
 **网址**：[linux.sb](https://linux.sb) · 中文技术社区
 
 动手帖的来源地：代理帖与 Quiver 介绍都先发在这里，评论区的补充常常比正文值钱。内容偏实操分享，帖子深度不一，关键结论自己复验一遍再收。
+
+### <img src="/icons/tools/prompts-chat.png" alt="" decoding="async" /> prompts.chat
+
+**官网**：[prompts.chat](https://prompts.chat) · **仓库**：[f/prompts.chat](https://github.com/f/prompts.chat) · 开源提示词库 · 网站 / 可自部署
+
+按分类检索 prompt、skill、workflow 与 bot，支持收藏、提交改进、投票和自部署；也能通过 CLI、Claude Code 插件或 MCP 直接调用，兼容 ChatGPT、Claude、Gemini、Llama。限制是社区投稿质量参差、内容以英文为主，自部署要 PostgreSQL。
 
 ### <img src="/icons/tools/sugarat-theme.png" alt="" decoding="async" /> @sugarat/theme 官网
 
