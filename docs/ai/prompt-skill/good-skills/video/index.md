@@ -1,6 +1,6 @@
 ---
 title: 🎬 视频与动效
-description: 用 Coding Agent 做片：宣传片、解说片、手绘与程序化动画
+description: 用 Coding Agent 做片：宣传片、解说片、手绘、程序化动画与内容分发
 hidden: true
 sidebar: false
 outline: [2, 3]
@@ -8,7 +8,7 @@ outline: [2, 3]
 
 # 🎬 视频与动效
 
-给 Coding Agent 装上的「做片」类 Skill：从产品宣传片、知识解说，到手绘逐笔动画与网页原生动态图形。共同点是画面由代码生成、可逐帧渲染，而不是调用视频生成模型。
+给 Coding Agent 装上的「做片」类 Skill：从产品宣传片、知识解说，到手绘逐笔动画与网页原生动态图形；也包括把一篇文章分发成长图、卡片、公众号排版与口播视频的内容流水线。共同点是画面由代码生成、可逐帧渲染，而不是调用视频生成模型。
 
 > 返回：[精选 Skill 收藏](/ai/prompt-skill/good-skills/)
 
@@ -112,4 +112,24 @@ outline: [2, 3]
   </div>
 </div>
 
-**挑选建议**：先看手里有什么素材。有产品页面和真实界面，选 video-shotcraft（Remotion 工程可续改）或 huashu-motion（原创动效 + 作曲 + 浏览器编辑）；只有主题或文章，选 sweety-handdraw-video（手绘口播）或 animate（分镜先确认再渲染）。想要艺术风格与口播，选 huashu-art-motion；只想挑一种电影风格直接拍，选 lemo-opuscar；做插画、品牌视觉与可交互网页，选 anidoodle；做以角色表演为主的卡通短片，选 Claude Animation Base；要网页原生的开场、动态文字，选 Bang Motion；想研究单支 10 秒 MG 样片的完整做法，选 mg-styles-15。这个分类普遍比纯文本 Skill 更吃环境：Node、Chrome、FFmpeg 基本是起步配置，部分还需要 Python / Playwright，装之前先看各自的环境要求。
+### [article2media（一文多发）](/ai/prompt-skill/good-skills/video/article2media)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/article2media/preview.jpg" alt="article2media 内容分发流水线封面" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">一篇文章或一条视频，产出长图、小红书卡片、公众号排版与竖屏口播视频。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">内容分发 · 公众号排版 · 口播视频<br><a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/pvqrbJoZyKGcDcD52LKNMQ">原文</a> · <a target="_blank" rel="noopener noreferrer" href="https://github.com/threerocks/article2media">GitHub</a> · <a href="/ai/prompt-skill/good-skills/video/article2media">详情</a></p>
+  </div>
+</div>
+
+### [Pixel2Motion（标志动效）](/ai/prompt-skill/good-skills/video/pixel2motion)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/pixel2motion/preview.jpg" alt="Pixel2Motion 标志动效封面" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">把位图 Logo 重建成可编辑 SVG，再生成一段可交付的 Logo 片头动画。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">Logo 动效 · SVG · 品牌片头<br><a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/2Lsm9BSUiILny545IahOLg">原文</a> · <a target="_blank" rel="noopener noreferrer" href="https://github.com/nolangz/pixel2motion">GitHub</a> · <a target="_blank" rel="noopener noreferrer" href="https://nolangz.github.io/pixel2motion/">演示</a> · <a href="/ai/prompt-skill/good-skills/video/pixel2motion">详情</a></p>
+  </div>
+</div>
+
+**挑选建议**：先看手里有什么素材。有产品页面和真实界面，选 video-shotcraft（Remotion 工程可续改）或 huashu-motion（原创动效 + 作曲 + 浏览器编辑）；只有主题或文章，选 sweety-handdraw-video（手绘口播）或 animate（分镜先确认再渲染）。想要艺术风格与口播，选 huashu-art-motion；只想挑一种电影风格直接拍，选 lemo-opuscar；做插画、品牌视觉与可交互网页，选 anidoodle；做以角色表演为主的卡通短片，选 Claude Animation Base；要网页原生的开场、动态文字，选 Bang Motion；想研究单支 10 秒 MG 样片的完整做法，选 mg-styles-15。要把已有文章或视频分发成长图、卡片、公众号排版和口播视频，选 article2media；只做 Logo 从静态到动态，选 Pixel2Motion。这个分类普遍比纯文本 Skill 更吃环境：Node、Chrome、FFmpeg 基本是起步配置，部分还需要 Python / Playwright，装之前先看各自的环境要求。
