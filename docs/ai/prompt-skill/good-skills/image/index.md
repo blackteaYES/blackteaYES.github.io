@@ -102,6 +102,16 @@ outline: [2, 3]
   </div>
 </div>
 
+### [travel-photo-book（旅行照片书）](/ai/prompt-skill/good-skills/image/travel-photo-book)
+
+<div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
+  <img src="/assets/img/skills/travel-photo-book/preview.jpg" alt="岳阳楼清晨：上半幅湖雾摄影，下半幅打开的书页" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
+  <div style="padding-top:14px;">
+    <p style="margin:0 0 8px;">把旅行照排成一页打开的书：3:4 竖版、上下 50/50，左页主色 + 邮票，右页标题 + 两行诗。</p>
+    <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">照片版式 · 多幕系列 · 可追溯<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/blackteaYES/travel-photo-book">GitHub</a> · <a href="/ai/prompt-skill/good-skills/image/travel-photo-book">详情</a></p>
+  </div>
+</div>
+
 ### [scenes-gathered-zine-v1-3（撕纸拼贴）](/ai/prompt-skill/good-skills/image/scenes-gathered-zine-v1-3)
 
 <div style="display:flex;gap:clamp(16px,4.5vw,56px);align-items:flex-start;margin:8px 0 24px clamp(0px,6vw,64px);">
