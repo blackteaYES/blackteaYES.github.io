@@ -104,10 +104,34 @@ html[theme], html[theme].dark {
 
 /* ===== 精选 Skill ===== */
 
+/* 分类页条目：标题与条目左对齐，图片与正文顶部对齐 */
+.skill-entry { display: flex; gap: clamp(14px, 3vw, 28px); align-items: flex-start; margin: 10px 0 26px; }
+/* 主题 `.VPDoc .content main img{margin:0 auto}` 优先级更高，在 flex 行内会用 auto 外边距
+   吃掉剩余空间，把图片和正文一起推右；这里用更高优先级把横向外边距归零 */
+.VPDoc .content .skill-entry > img {
+  width: 104px; height: auto; border-radius: 8px; border: 1px solid var(--vp-c-divider);
+  flex: none; display: block; margin: 0;
+}
+.skill-entry-body { padding-top: 2px; min-width: 0; }
+.skill-entry-body p { line-height: 1.7; }
+
 /* 详情页封面外层限宽 300px、图片 100% 宽，主题的 300px 限高会把 3:4 封面压成方形 */
 .VPDoc .vp-doc img[src^="/assets/img/skills/"][src$="/preview.jpg"] {
   max-height: none;
 }
+
+/* 分类页正文：导语与「挑选建议」分组列表，避免长段落挤成一团 */
+.skill-category .vp-doc > p { line-height: 1.9; }
+.skill-category .skill-lead { margin: 6px 0 22px; color: var(--vp-c-text-2); }
+.skill-category .vp-doc h2 { margin-top: 44px; }
+.skill-category .vp-doc h2 + p { margin: 0 0 2px; font-size: 14px; }
+.skill-category .vp-doc h2 + p strong { color: var(--vp-c-text-1); }
+.skill-category .vp-doc ul {
+  display: flex; flex-direction: column; gap: 8px;
+  margin: 12px 0 24px; padding-left: 20px;
+}
+.skill-category .vp-doc li { margin: 0; line-height: 1.8; color: var(--vp-c-text-2); }
+.skill-category .vp-doc li strong { color: var(--vp-c-text-1); }
 
 /* 分类页条目：原图 + 变体双缩略图 */
 .prompt-entry { display: flex; gap: clamp(14px, 3vw, 28px); align-items: flex-start; margin: 10px 0 26px; }
@@ -136,6 +160,9 @@ html[theme], html[theme].dark {
 
 /* 移动端 */
 @media (max-width: 640px) {
+  .skill-entry { gap: 12px; }
+  .VPDoc .content .skill-entry > img { width: 92px; }
+  .skill-entry-body { padding-top: 0; }
   .prompt-entry { flex-direction: column; gap: 10px; }
   .pe-thumbs { width: 100%; }
   .pe-thumb { width: calc(50% - 4px); }

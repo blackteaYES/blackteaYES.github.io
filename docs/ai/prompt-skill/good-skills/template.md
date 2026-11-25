@@ -31,6 +31,40 @@ docs/ai/prompt-skill/good-skills/
     └── <skill-id>.md        # Skill 详情
 ```
 
+## 分类页结构
+
+分类页 frontmatter 加 `pageClass: skill-category`；导语用 `skill-lead`；页尾的「挑选建议」不再写成整段，改成 `## 挑选建议` 加分组短列表，每条只说「场景 → 用谁」：
+
+```md
+---
+title: 🎬 视频与动效
+description: 一句话说明分类范围
+hidden: true
+sidebar: false
+outline: [2, 3]
+pageClass: skill-category
+---
+
+# 🎬 视频与动效
+
+<p class="skill-lead">一句话说明这个分类收什么。</p>
+
+> 返回：[精选 Skill 收藏](/ai/prompt-skill/good-skills/)
+
+### 条目……
+
+## 挑选建议
+
+**先看场景**
+
+- 压缩、转码、加字幕 → ffmpeg-skill
+- 中文口播删口误 → videocut
+
+**再做画面**
+
+- 产品页面与真实界面 → video-shotcraft
+```
+
 ## 分类页条目
 
 在对应分类的 `index.md` 里追加：
@@ -38,9 +72,9 @@ docs/ai/prompt-skill/good-skills/
 ```md
 ### [英文名（中文简称）](/ai/prompt-skill/good-skills/<category>/<skill-id>)
 
-<div style="display:flex;gap:14px;align-items:flex-start;margin:8px 0 24px;">
-  <img src="/assets/img/skills/<skill-id>/preview.jpg" alt="效果预览" style="width:132px;height:auto;border-radius:6px;border:1px solid var(--vp-c-divider);flex:none;">
-  <div>
+<div class="skill-entry">
+  <img src="/assets/img/skills/<skill-id>/preview.jpg" alt="效果预览">
+  <div class="skill-entry-body">
     <p style="margin:0 0 8px;">一句话说清它解决什么问题（40 字内）。</p>
     <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">使用场景 · 形态 · 来源工具<br><a href="原始分享地址">原文</a> · <a href="仓库地址">GitHub</a> · <a href="/ai/prompt-skill/good-skills/<category>/<skill-id>">详情</a></p>
   </div>
@@ -96,7 +130,7 @@ outline: [2, 3]
 ## 图片
 
 - 缩略图统一为 540×720 竖版 JPG，放在 `docs/public/assets/img/skills/<skill-id>/preview.jpg`；
-- 分类页以 132px 宽展示，`height:auto` 自适应；
+- 分类页统一使用 `.skill-entry` 布局，图片 104px 宽、`height:auto` 自适应，窄屏自动改为上下排列；
 - 详情页封面统一用 `<div style="max-width:300px;margin:16px 0;">` 包裹，图片 `width:100%;height:auto`；多张示例图同样固定 300px 宽，避免尺寸忽大忽小；
 - 详情页可另放 1–2 张原图；
 - 原仓库没有可用截图时，可制作同尺寸的品牌封面，并在详情页注明「封面为本收藏自制示意图」；
