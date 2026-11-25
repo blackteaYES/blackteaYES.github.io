@@ -42,7 +42,8 @@ npx skills add Vincentwei1021/video-shotcraft
 
 ## 出处
 
-- 原文：[9 个神级 GitHub 项目助你蹭上抖音、小红书 Vibe 知识大赏热点](https://mp.weixin.qq.com/s/7MLwtD9J2QnhCz45dBYCMw)（逛逛 GitHub，2026-11-04）
+- 原文 1：[9 个神级 GitHub 项目助你蹭上抖音、小红书 Vibe 知识大赏热点](https://mp.weixin.qq.com/s/7MLwtD9J2QnhCz45dBYCMw)（逛逛 GitHub，2026-11-04）
+- 原文 2：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)（微信公众号「乔巴」；文中的镜头卡数量与站内记录不一致，以仓库当前说明为准）
 - 仓库：[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)（截至 2026-11 约 18.8k Star）
 - 官网：[vincentwei1021.github.io/video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/)
 - 许可：Apache-2.0
