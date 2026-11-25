@@ -57,3 +57,13 @@ sidebar: false
 **我的用法**：先拿自己的旅行照测一张，重点检查上下 50/50 分割、书脊居中、邮票细节和原照特征是否保留；这套提示词已经提炼成 skill，版式约束、场景卡和九项质检都固化下来了，不用每次重抄。
 
 **已做成 Skill**：[travel-photo-book（旅行照片书）](/ai/prompt-skill/good-skills/image/travel-photo-book) · [GitHub](https://github.com/blackteaYES/travel-photo-book)
+
+## 《10 个用 Codex 做视频的 Skill》
+
+> 这些 Skill 不是必须全部安装，也不是装得越多越好，需要根据自己的实际需求去选择。
+
+**出处**：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)、微信公众号「乔巴」
+
+**为什么摘它**：把「用 Agent 做视频」拆成可执行的环节，每个 Skill 给出安装命令和仓库地址，还给了按场景选型和入门顺序；省去逐个搜仓库、对比依赖和付费点。
+
+**我的用法**：按「先处理素材、再做画面」的顺序试：ffmpeg-skill 打底，中文口播用 videocut，其他素材粗剪用 video-use。完整分工表和过期数据校正整理在[这张选型地图](./codex-video-skills)里，其中 4 个已收进精选 Skill 收藏。
