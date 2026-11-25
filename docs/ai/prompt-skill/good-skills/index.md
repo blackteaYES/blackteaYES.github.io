@@ -51,6 +51,15 @@ outline: [2, 3]
   link: /ai/prompt-skill/good-skills/video/
 :::
 
+## 🆕 最近收录
+
+最近新增的 Skill，只列 5 条；完整条目见各分类页。
+
+- **2026-11-25** · [ffmpeg-skill（本地剪辑）](/ai/prompt-skill/good-skills/video/ffmpeg-skill) — 素材处理 · 42 个本地 FFmpeg 工具，剪辑、字幕、转码全离线
+- **2026-11-25** · [videocut（口播剪辑）](/ai/prompt-skill/good-skills/video/videocut) — 中文口播 · 转成逐字稿，勾掉口误和停顿再剪辑
+- **2026-11-25** · [video-use（素材粗剪）](/ai/prompt-skill/good-skills/video/video-use) — 素材粗剪 · 原始素材丢进文件夹，和 Agent 聊一句就出片
+- **2026-11-25** · [manim-skill（讲解动画）](/ai/prompt-skill/good-skills/video/manim-skill) — 讲解动画 · 用代码画公式推导、算法与原理
+
 ## 📦 按来源浏览
 
 分类回答「你要干什么」，来源回答「同一个地方还有什么」。同一来源累计 2 条以上单独成组，单条来源统一收进「独立来源」；条目全部链到现有详情页，不另存副本。

@@ -45,6 +45,7 @@ node bin/install.cjs doctor
 ## 出处
 
 - 原文：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)（微信公众号「乔巴」）
+- 站内摘录：[10 个用 Codex 做视频的 Skill](/digest/bookmarks/codex-video-skills)
 - 插件仓库：[Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills)
 - Runtime 主仓：[Agentchengfeng/chengfeng-videocut](https://github.com/Agentchengfeng/chengfeng-videocut)
 - 许可：Apache-2.0

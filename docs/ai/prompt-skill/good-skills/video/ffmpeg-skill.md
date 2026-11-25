@@ -50,6 +50,7 @@ npx ffmpeg-skill doctor     # 检查 ffmpeg / ffprobe 与所需组件
 ## 出处
 
 - 原文：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)（微信公众号「乔巴」）
+- 站内摘录：[10 个用 Codex 做视频的 Skill](/digest/bookmarks/codex-video-skills)
 - 仓库：[kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)
 - 文档站：[kajisho5.github.io/ffmpeg-skill](https://kajisho5.github.io/ffmpeg-skill/)
 - npm：[ffmpeg-skill](https://www.npmjs.com/package/ffmpeg-skill)

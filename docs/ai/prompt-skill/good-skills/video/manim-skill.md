@@ -51,6 +51,7 @@ npx skills add adithya-s-k/manim_skill
 ## 出处
 
 - 原文：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)（微信公众号「乔巴」）
+- 站内摘录：[10 个用 Codex 做视频的 Skill](/digest/bookmarks/codex-video-skills)
 - 仓库：[adithya-s-k/manim_skill](https://github.com/adithya-s-k/manim_skill)
 - skills.sh：[adithya-s-k/manim_skill](https://skills.sh/adithya-s-k/manim_skill)
 - 许可：MIT

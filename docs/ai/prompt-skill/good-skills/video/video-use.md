@@ -51,6 +51,7 @@ cp .env.example .env   # 填入 ELEVENLABS_API_KEY
 ## 出处
 
 - 原文：[10 个用 Codex 做视频的 Skill](https://mp.weixin.qq.com/s/h9HoC7OzbaLHrE08UMEUAg)（微信公众号「乔巴」）
+- 站内摘录：[10 个用 Codex 做视频的 Skill](/digest/bookmarks/codex-video-skills)
 - 仓库：[browser-use/video-use](https://github.com/browser-use/video-use)
 - 官网：[video-use.com](https://video-use.com)
 - 许可：MIT
