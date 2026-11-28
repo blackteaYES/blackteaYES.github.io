@@ -106,7 +106,7 @@ pageClass: skill-category
 ### [travel-photo-book（旅行照片书）](/ai/prompt-skill/good-skills/image/travel-photo-book)
 
 <div class="skill-entry">
-  <img src="/assets/img/skills/travel-photo-book/preview.jpg" alt="岳阳楼清晨：上半幅湖雾摄影，下半幅打开的书页">
+  <img src="/assets/img/skills/travel-photo-book/preview.jpg" alt="赛里木湖日出：上半幅金色湖面，下半幅打开的书页">
   <div class="skill-entry-body">
     <p style="margin:0 0 8px;">把旅行照排成一页打开的书：3:4 竖版、上下 50/50，左页主色 + 邮票，右页标题 + 两行诗。</p>
     <p style="margin:0;color:var(--vp-c-text-2);font-size:13px;">照片版式 · 多幕系列 · 可追溯<br><a target="_blank" rel="noopener noreferrer" href="https://github.com/blackteaYES/travel-photo-book">GitHub</a> · <a href="/ai/prompt-skill/good-skills/image/travel-photo-book">详情</a></p>
